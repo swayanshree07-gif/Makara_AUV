@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<robot name="auv" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:property name="mass" value="175.0" />
+
+  <link name="base_link">
+    <inertial>
+      <mass value="${mass}"/>
+      <inertia ixx="10.0" ixy="0.0" ixz="0.0" iyy="10.0" iyz="0.0" izz="10.0"/>
+    </inertial>
+    
+    <visual>
+      <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+      <geometry><cylinder radius="0.15" length="0.4"/></geometry>
+      <material name="yellow"><color rgba="1 0.8 0 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 1.5708 0"/>
+      <geometry><cylinder radius="0.15" length="0.4"/></geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0.2" rpy="0 0 0"/>
+      <geometry><box size="0.5 0.4 0.15"/></geometry>
+      <material name="blue_foam"><color rgba="0 0.4 0.8 1"/></material>
+    </visual>
+  </link>
+
+  <gazebo>
+    <plugin
+      filename="libignition-gazebo-odometry-publisher-system.so"
+      name="ignition::gazebo::systems::OdometryPublisher">
+      <odom_frame>world</odom_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+      <odom_publish_frequency>10</odom_publish_frequency>
+      <odom_topic>/dvl/odom</odom_topic>
+    </plugin>
+    <plugin
+      filename="libignition-gazebo-imu-system.so"
+      name="ignition::gazebo::systems::Imu">
+    </plugin>
+  </gazebo>
+
+  <!-- IMU Link for the plugin -->
+  <link name="imu_link">
+    <inertial>
+      <mass value="0.01"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+  </link>
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+  </joint>
+  <gazebo reference="imu_link">
+    <sensor name="imu_sensor" type="imu">
+      <always_on>1</always_on>
+      <update_rate>50</update_rate>
+      <visualize>true</visualize>
+      <topic>/imu/data</topic>
+    </sensor>
+  </gazebo>
+
+  <xacro:macro name="thruster_link" params="name x y z roll pitch yaw material">
+    <link name="thruster_${name}">
+      <inertial>
+        <mass value="0.5"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual>
+        <geometry><cylinder radius="0.04" length="0.12"/></geometry>
+        <material name="${material}"><color rgba="0 0 0 1"/></material>
+      </visual>
+      <collision>
+        <geometry><cylinder radius="0.04" length="0.12"/></geometry>
+      </collision>
+    </link>
+
+    <joint name="thruster_${name}_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="thruster_${name}"/>
+      <origin xyz="${x} ${y} ${z}" rpy="${roll} ${pitch} ${yaw}"/>
+      <axis xyz="0 0 1"/> 
+    </joint>
+
+    <gazebo reference="thruster_${name}_joint">
+      <plugin
+        filename="libignition-gazebo-thruster-system.so"
+        name="ignition::gazebo::systems::Thruster">
+        <joint_name>thruster_${name}_joint</joint_name>
+        <thrust_coefficient>0.02</thrust_coefficient>
+        <fluid_density>1000</fluid_density>
+        <propeller_diameter>0.1</propeller_diameter>
+        <velocity_control>true</velocity_control>
+        <topic>/thrusters/${name}/cmd_thrust</topic>
+      </plugin>
+    </gazebo>
+  </xacro:macro>
+
+  <xacro:thruster_link name="h1" x="0.25" y="0.25" z="0" roll="0" pitch="1.5708" yaw="0.785" material="black"/>
+  <xacro:thruster_link name="h2" x="0.25" y="-0.25" z="0" roll="0" pitch="1.5708" yaw="-0.785" material="black"/>
+  <xacro:thruster_link name="h3" x="-0.25" y="0.25" z="0" roll="0" pitch="1.5708" yaw="2.355" material="black"/>
+  <xacro:thruster_link name="h4" x="-0.25" y="-0.25" z="0" roll="0" pitch="1.5708" yaw="-2.355" material="black"/>
+
+  <xacro:thruster_link name="v1" x="0.15" y="0.15" z="0.2" roll="0" pitch="0" yaw="0" material="black"/>
+  <xacro:thruster_link name="v2" x="0.15" y="-0.15" z="0.2" roll="0" pitch="0" yaw="0" material="black"/>
+  <xacro:thruster_link name="v3" x="-0.15" y="0.15" z="0.2" roll="0" pitch="0" yaw="0" material="black"/>
+  <xacro:thruster_link name="v4" x="-0.15" y="-0.15" z="0.2" roll="0" pitch="0" yaw="0" material="black"/>
+
+</robot>
