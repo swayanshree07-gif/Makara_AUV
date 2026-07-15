@@ -1,0 +1,2 @@
+[console_scripts]
+detector_node = makara_vision.detector_node:main

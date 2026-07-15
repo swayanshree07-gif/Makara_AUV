@@ -1,0 +1,37 @@
+[0.938s] Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/makara_vision build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/install.log --single-version-externally-managed install_data
+[1.139s] running egg_info
+[1.139s] creating ../build/makara_vision/makara_vision.egg-info
+[1.151s] writing ../build/makara_vision/makara_vision.egg-info/PKG-INFO
+[1.151s] writing dependency_links to ../build/makara_vision/makara_vision.egg-info/dependency_links.txt
+[1.151s] writing entry points to ../build/makara_vision/makara_vision.egg-info/entry_points.txt
+[1.151s] writing requirements to ../build/makara_vision/makara_vision.egg-info/requires.txt
+[1.151s] writing top-level names to ../build/makara_vision/makara_vision.egg-info/top_level.txt
+[1.151s] writing manifest file '../build/makara_vision/makara_vision.egg-info/SOURCES.txt'
+[1.176s] reading manifest file '../build/makara_vision/makara_vision.egg-info/SOURCES.txt'
+[1.176s] writing manifest file '../build/makara_vision/makara_vision.egg-info/SOURCES.txt'
+[1.176s] running build
+[1.176s] running build_py
+[1.176s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/build
+[1.176s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/build/lib
+[1.176s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/build/lib/makara_vision
+[1.177s] copying makara_vision/detector_node.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/build/lib/makara_vision
+[1.177s] copying makara_vision/__init__.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/build/lib/makara_vision
+[1.177s] running install
+[1.181s] running install_lib
+[1.193s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/lib/python3.12/site-packages/makara_vision
+[1.194s] copying /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/build/lib/makara_vision/detector_node.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/lib/python3.12/site-packages/makara_vision
+[1.194s] copying /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/build/lib/makara_vision/__init__.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/lib/python3.12/site-packages/makara_vision
+[1.194s] byte-compiling /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/lib/python3.12/site-packages/makara_vision/detector_node.py to detector_node.cpython-312.pyc
+[1.194s] byte-compiling /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/lib/python3.12/site-packages/makara_vision/__init__.py to __init__.cpython-312.pyc
+[1.194s] running install_data
+[1.194s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/share/ament_index
+[1.194s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/share/ament_index/resource_index
+[1.195s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/share/ament_index/resource_index/packages
+[1.195s] copying resource/makara_vision -> /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/share/ament_index/resource_index/packages
+[1.195s] copying package.xml -> /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/share/makara_vision
+[1.195s] running install_egg_info
+[1.206s] Copying ../build/makara_vision/makara_vision.egg-info to /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/lib/python3.12/site-packages/makara_vision-0.0.0-py3.12.egg-info
+[1.206s] running install_scripts
+[1.285s] Installing detector_node script to /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/lib/makara_vision
+[1.285s] writing list of installed files to '/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/install.log'
+[1.306s] Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/makara_vision build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_vision/install.log --single-version-externally-managed install_data

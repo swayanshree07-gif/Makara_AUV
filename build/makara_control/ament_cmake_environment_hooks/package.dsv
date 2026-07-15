@@ -1,0 +1,4 @@
+source;share/makara_control/local_setup.bash
+source;share/makara_control/local_setup.dsv
+source;share/makara_control/local_setup.sh
+source;share/makara_control/local_setup.zsh

@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/data_sync/data_sync.egg-info/PKG-INFO
+writing dependency_links to ../../build/data_sync/data_sync.egg-info/dependency_links.txt
+writing entry points to ../../build/data_sync/data_sync.egg-info/entry_points.txt
+writing requirements to ../../build/data_sync/data_sync.egg-info/requires.txt
+writing top-level names to ../../build/data_sync/data_sync.egg-info/top_level.txt
+reading manifest file '../../build/data_sync/data_sync.egg-info/SOURCES.txt'
+writing manifest file '../../build/data_sync/data_sync.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/python3.12/site-packages/data_sync-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/data_sync/data_sync.egg-info to /home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/python3.12/site-packages/data_sync-0.0.0-py3.12.egg-info
+running install_scripts
+Installing makara_to_bluerov2 script to /home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/data_sync
+Installing stability_sync_node script to /home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/data_sync
+writing list of installed files to '/home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/install.log'

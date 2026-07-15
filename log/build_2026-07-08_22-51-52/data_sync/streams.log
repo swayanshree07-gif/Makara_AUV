@@ -1,0 +1,22 @@
+[1.281s] Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/data_sync': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_sync build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/install.log --single-version-externally-managed install_data
+[1.469s] running egg_info
+[1.482s] writing ../../build/data_sync/data_sync.egg-info/PKG-INFO
+[1.482s] writing dependency_links to ../../build/data_sync/data_sync.egg-info/dependency_links.txt
+[1.482s] writing entry points to ../../build/data_sync/data_sync.egg-info/entry_points.txt
+[1.482s] writing requirements to ../../build/data_sync/data_sync.egg-info/requires.txt
+[1.482s] writing top-level names to ../../build/data_sync/data_sync.egg-info/top_level.txt
+[1.508s] reading manifest file '../../build/data_sync/data_sync.egg-info/SOURCES.txt'
+[1.509s] writing manifest file '../../build/data_sync/data_sync.egg-info/SOURCES.txt'
+[1.509s] running build
+[1.509s] running build_py
+[1.509s] running install
+[1.514s] running install_lib
+[1.527s] running install_data
+[1.527s] running install_egg_info
+[1.541s] removing '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/python3.12/site-packages/data_sync-0.0.0-py3.12.egg-info' (and everything under it)
+[1.541s] Copying ../../build/data_sync/data_sync.egg-info to /home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/python3.12/site-packages/data_sync-0.0.0-py3.12.egg-info
+[1.541s] running install_scripts
+[1.632s] Installing makara_to_bluerov2 script to /home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/data_sync
+[1.632s] Installing stability_sync_node script to /home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/data_sync
+[1.632s] writing list of installed files to '/home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/install.log'
+[1.657s] Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/data_sync' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_sync build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/install.log --single-version-externally-managed install_data

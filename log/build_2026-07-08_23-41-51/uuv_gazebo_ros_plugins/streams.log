@@ -1,0 +1,17 @@
+[1.458s] Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_gazebo_ros_plugins': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_gazebo_ros_plugins build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/install.log --single-version-externally-managed install_data
+[1.682s] running egg_info
+[1.697s] writing ../../build/uuv_gazebo_ros_plugins/uuv_gazebo_ros_plugins.egg-info/PKG-INFO
+[1.697s] writing dependency_links to ../../build/uuv_gazebo_ros_plugins/uuv_gazebo_ros_plugins.egg-info/dependency_links.txt
+[1.697s] writing requirements to ../../build/uuv_gazebo_ros_plugins/uuv_gazebo_ros_plugins.egg-info/requires.txt
+[1.697s] writing top-level names to ../../build/uuv_gazebo_ros_plugins/uuv_gazebo_ros_plugins.egg-info/top_level.txt
+[1.712s] reading manifest file '../../build/uuv_gazebo_ros_plugins/uuv_gazebo_ros_plugins.egg-info/SOURCES.txt'
+[1.714s] writing manifest file '../../build/uuv_gazebo_ros_plugins/uuv_gazebo_ros_plugins.egg-info/SOURCES.txt'
+[1.714s] running build
+[1.714s] running install
+[1.720s] running install_data
+[1.721s] running install_egg_info
+[1.758s] removing '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/lib/python3.12/site-packages/uuv_gazebo_ros_plugins-0.0.0-py3.12.egg-info' (and everything under it)
+[1.758s] Copying ../../build/uuv_gazebo_ros_plugins/uuv_gazebo_ros_plugins.egg-info to /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/lib/python3.12/site-packages/uuv_gazebo_ros_plugins-0.0.0-py3.12.egg-info
+[1.758s] running install_scripts
+[1.868s] writing list of installed files to '/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/install.log'
+[1.894s] Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_gazebo_ros_plugins' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_gazebo_ros_plugins build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/install.log --single-version-externally-managed install_data

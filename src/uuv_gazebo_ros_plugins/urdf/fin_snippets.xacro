@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ============================= -->
+  <!-- FIN (HARMONIC - BASIC) -->
+  <!-- ============================= -->
+
+  <xacro:macro name="fin_two_lines_macro"
+    params="namespace parent_link fin_id *origin
+            min_joint_limit max_joint_limit mesh_filename">
+
+    <!-- Joint -->
+    <joint name="${namespace}/fin${fin_id}_joint" type="revolute">
+      <limit lower="${min_joint_limit}" upper="${max_joint_limit}" effort="1" velocity="1"/>
+      <xacro:insert_block name="origin"/>
+      <axis xyz="0 0 1"/>
+      <parent link="${parent_link}" />
+      <child link="${namespace}/fin${fin_id}" />
+    </joint>
+
+    <!-- Link -->
+    <link name="${namespace}/fin${fin_id}">
+      <inertial>
+        <mass value="0.01"/>
+        <origin xyz="0 0 0"/>
+        <inertia ixx="1e-5" iyy="1e-5" izz="1e-5"
+                 ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+
+      <visual>
+        <origin xyz="0 0 0"/>
+        <geometry>
+          <mesh filename="${mesh_filename}" scale="1 1 1"/>
+        </geometry>
+      </visual>
+    </link>
+
+    <!-- ============================= -->
+    <!-- JOINT CONTROL (HARMONIC) -->
+    <!-- ============================= -->
+
+    <gazebo reference="${namespace}/fin${fin_id}">
+      <plugin
+        filename="gz-sim-joint-controller-system"
+        name="gz::sim::systems::JointController">
+
+        <joint_name>${namespace}/fin${fin_id}_joint</joint_name>
+        <topic>/fin_${fin_id}/cmd</topic>
+
+      </plugin>
+    </gazebo>
+
+  </xacro:macro>
+
+
+  <!-- ============================= -->
+  <!-- QUADRATIC VERSION (SAME BASE) -->
+  <!-- ============================= -->
+
+  <xacro:macro name="fin_quadratic_macro"
+    params="namespace parent_link fin_id *origin
+            min_joint_limit max_joint_limit mesh_filename">
+
+    <xacro:fin_two_lines_macro
+      namespace="${namespace}"
+      parent_link="${parent_link}"
+      fin_id="${fin_id}"
+      mesh_filename="${mesh_filename}"
+      min_joint_limit="${min_joint_limit}"
+      max_joint_limit="${max_joint_limit}">
+      <xacro:insert_block name="origin"/>
+    </xacro:fin_two_lines_macro>
+
+  </xacro:macro>
+
+</robot>

@@ -1,0 +1,601 @@
+[0.018s] Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/swayanshree/projects/Makara-AUV-ROS2/src/makara_interfaces -DCMAKE_INSTALL_PREFIX=/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces
+[0.309s] -- The C compiler identification is GNU 13.3.0
+[0.309s] -- The CXX compiler identification is GNU 13.3.0
+[0.309s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.309s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.309s] -- Detecting C compile features
+[0.309s] -- Detecting C compile features - done
+[0.310s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.310s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.310s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.310s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.402s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.497s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.507s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.632s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.638s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.237s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.026s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.029s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.121s] -- Found PythonExtra: /usr/bin/python3  
+[2.517s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.564s] -- Configuring done (2.5s)
+[2.604s] -- Generating done (0.0s)
+[2.613s] -- Build files have been written to: /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces
+[2.620s] Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/swayanshree/projects/Makara-AUV-ROS2/src/makara_interfaces -DCMAKE_INSTALL_PREFIX=/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces
+[2.621s] Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces -- -j16 -l16
+[2.665s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.672s] [  1%] Built target ament_cmake_python_copy_makara_interfaces
+[2.833s] running egg_info
+[2.834s] creating makara_interfaces.egg-info
+[2.845s] writing makara_interfaces.egg-info/PKG-INFO
+[2.846s] writing dependency_links to makara_interfaces.egg-info/dependency_links.txt
+[2.846s] writing top-level names to makara_interfaces.egg-info/top_level.txt
+[2.846s] writing manifest file 'makara_interfaces.egg-info/SOURCES.txt'
+[2.884s] reading manifest file 'makara_interfaces.egg-info/SOURCES.txt'
+[2.885s] writing manifest file 'makara_interfaces.egg-info/SOURCES.txt'
+[2.920s] [  1%] Built target ament_cmake_python_build_makara_interfaces_egg
+[2.928s] [  1%] Built target makara_interfaces__rosidl_generator_type_description
+[2.937s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.951s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.429s] [  2%] Built target makara_interfaces__cpp
+[3.611s] [  3%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/battery_status__functions.c.o[0m
+[3.611s] [  3%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/battery_status__description.c.o[0m
+[3.621s] [  4%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/battery_status__type_support.c.o[0m
+[3.621s] [  5%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/combined__functions.c.o[0m
+[3.624s] [  5%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/combined__description.c.o[0m
+[3.625s] [  5%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/depth__description.c.o[0m
+[3.627s] [  5%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/ins_vel__functions.c.o[0m
+[3.630s] [  6%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/move_cmd__description.c.o[0m
+[3.630s] [  7%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/ins_vel__description.c.o[0m
+[3.630s] [  8%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/ins_vel__type_support.c.o[0m
+[3.631s] [  9%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/depth__type_support.c.o[0m
+[3.631s] [ 10%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/depth__functions.c.o[0m
+[3.634s] [ 10%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/move_cmd__functions.c.o[0m
+[3.638s] [ 11%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/combined__type_support.c.o[0m
+[3.639s] [ 12%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/move_cmds__description.c.o[0m
+[3.646s] [ 13%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/move_cmd__type_support.c.o[0m
+[3.664s] [ 13%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/move_cmds__functions.c.o[0m
+[3.677s] [ 14%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/move_cmds__type_support.c.o[0m
+[3.685s] [ 15%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/pid__description.c.o[0m
+[3.686s] [ 16%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/position__description.c.o[0m
+[3.688s] [ 18%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/pid__type_support.c.o[0m
+[3.688s] [ 18%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/setpoint__description.c.o[0m
+[3.691s] [ 19%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/position__functions.c.o[0m
+[3.692s] [ 19%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/pid__functions.c.o[0m
+[3.695s] [ 19%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/position__type_support.c.o[0m
+[3.699s] [ 20%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/setpoint__type_support.c.o[0m
+[3.699s] [ 20%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/setpoint__functions.c.o[0m
+[3.703s] [ 22%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/thruster_speeds__functions.c.o[0m
+[3.703s] [ 22%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/thruster_speeds__description.c.o[0m
+[3.707s] [ 22%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/thruster_speeds__type_support.c.o[0m
+[3.727s] [ 23%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/thruster_forces__functions.c.o[0m
+[3.727s] [ 24%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/thruster_forces__description.c.o[0m
+[3.728s] [ 25%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/thruster_forces__type_support.c.o[0m
+[3.730s] [ 25%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/vector_nav_data__description.c.o[0m
+[3.734s] [ 26%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/vector_nav_data__type_support.c.o[0m
+[3.736s] [ 27%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_c.dir/rosidl_generator_c/makara_interfaces/msg/detail/vector_nav_data__functions.c.o[0m
+[3.785s] [ 27%] [32m[1mLinking C shared library libmakara_interfaces__rosidl_generator_c.so[0m
+[3.838s] [ 27%] Built target makara_interfaces__rosidl_generator_c
+[3.848s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.848s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.849s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.851s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.853s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.855s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.346s] [ 32%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/battery_status__type_support.cpp.o[0m
+[4.352s] [ 33%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/combined__type_support.cpp.o[0m
+[4.356s] [ 34%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/depth__type_support.cpp.o[0m
+[4.357s] [ 34%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/ins_vel__type_support.cpp.o[0m
+[4.359s] [ 35%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/position__type_support.cpp.o[0m
+[4.359s] [ 36%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/move_cmd__type_support.cpp.o[0m
+[4.362s] [ 36%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/pid__type_support.cpp.o[0m
+[4.362s] [ 37%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/move_cmds__type_support.cpp.o[0m
+[4.369s] [ 37%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/thruster_speeds__type_support.cpp.o[0m
+[4.385s] [ 38%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/setpoint__type_support.cpp.o[0m
+[4.401s] [ 39%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/thruster_forces__type_support.cpp.o[0m
+[4.627s] [ 39%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/battery_status__type_support.cpp.o[0m
+[4.731s] [ 40%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/combined__type_support.cpp.o[0m
+[4.764s] [ 41%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/makara_interfaces/msg/vector_nav_data__type_support.cpp.o[0m
+[4.893s] [ 42%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/depth__type_support.cpp.o[0m
+[5.073s] [ 42%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/ins_vel__type_support.cpp.o[0m
+[5.118s] [ 43%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/move_cmd__type_support.cpp.o[0m
+[5.168s] [ 44%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/move_cmds__type_support.cpp.o[0m
+[5.216s] [ 44%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/battery_status__type_support.c.o[0m
+[5.258s] [ 45%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/pid__type_support.cpp.o[0m
+[5.271s] [ 45%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/position__type_support.cpp.o[0m
+[5.274s] [ 46%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/combined__type_support.c.o[0m
+[5.294s] [ 47%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/depth__type_support.c.o[0m
+[5.305s] [ 47%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/ins_vel__type_support.c.o[0m
+[5.327s] [ 48%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/setpoint__type_support.cpp.o[0m
+[5.346s] [ 49%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/thruster_speeds__type_support.cpp.o[0m
+[5.354s] [ 50%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/battery_status__type_support.cpp.o[0m
+[5.363s] [ 51%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/move_cmd__type_support.c.o[0m
+[5.392s] [ 51%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/thruster_forces__type_support.cpp.o[0m
+[5.412s] [ 52%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/move_cmds__type_support.c.o[0m
+[5.412s] [ 53%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/position__type_support.c.o[0m
+[5.412s] [ 53%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/pid__type_support.c.o[0m
+[5.412s] [ 54%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/combined__type_support.cpp.o[0m
+[5.443s] [ 54%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/depth__type_support.cpp.o[0m
+[5.456s] [ 55%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/makara_interfaces/msg/vector_nav_data__type_support.cpp.o[0m
+[5.470s] [ 56%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/setpoint__type_support.c.o[0m
+[5.490s] [ 57%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/thruster_speeds__type_support.c.o[0m
+[5.495s] [ 58%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/battery_status__type_support_c.cpp.o[0m
+[5.498s] [ 59%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/ins_vel__type_support.cpp.o[0m
+[5.504s] [ 59%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/thruster_forces__type_support.c.o[0m
+[5.512s] [ 60%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/move_cmd__type_support.cpp.o[0m
+[5.522s] [ 60%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/depth__type_support_c.cpp.o[0m
+[5.534s] [ 60%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/move_cmds__type_support.cpp.o[0m
+[5.536s] [ 61%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/combined__type_support_c.cpp.o[0m
+[5.544s] [ 62%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/makara_interfaces/msg/detail/vector_nav_data__type_support.c.o[0m
+[5.564s] [ 63%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/pid__type_support.cpp.o[0m
+[5.582s] [ 64%] [32m[1mLinking CXX shared library libmakara_interfaces__rosidl_typesupport_c.so[0m
+[5.624s] [ 65%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/position__type_support.cpp.o[0m
+[5.625s] [ 65%] [32m[1mLinking CXX shared library libmakara_interfaces__rosidl_typesupport_cpp.so[0m
+[5.642s] [ 66%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/ins_vel__type_support_c.cpp.o[0m
+[5.672s] [ 67%] [32m[1mLinking C shared library libmakara_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.763s] [ 67%] Built target makara_interfaces__rosidl_typesupport_c
+[5.777s] [ 67%] Built target makara_interfaces__rosidl_typesupport_introspection_c
+[5.801s] [ 67%] Built target makara_interfaces__rosidl_typesupport_cpp
+[5.804s] [ 68%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/setpoint__type_support.cpp.o[0m
+[5.830s] [ 68%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/thruster_speeds__type_support.cpp.o[0m
+[5.842s] [ 69%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/move_cmd__type_support_c.cpp.o[0m
+[5.986s] [ 70%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o[0m
+[6.061s] [ 71%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/thruster_forces__type_support.cpp.o[0m
+[6.114s] [ 72%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/makara_interfaces/msg/detail/vector_nav_data__type_support.cpp.o[0m
+[6.281s] [ 72%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/combined__type_support.cpp.o[0m
+[6.327s] [ 72%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/move_cmds__type_support_c.cpp.o[0m
+[6.377s] [ 73%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/pid__type_support_c.cpp.o[0m
+[6.382s] [ 74%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/position__type_support_c.cpp.o[0m
+[6.497s] [ 75%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/depth__type_support.cpp.o[0m
+[6.528s] [ 75%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/setpoint__type_support_c.cpp.o[0m
+[6.566s] [ 76%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/ins_vel__type_support.cpp.o[0m
+[6.576s] [ 77%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/thruster_speeds__type_support_c.cpp.o[0m
+[6.624s] [ 78%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/thruster_forces__type_support_c.cpp.o[0m
+[6.627s] [ 78%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/move_cmd__type_support.cpp.o[0m
+[6.743s] [ 79%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/move_cmds__type_support.cpp.o[0m
+[6.895s] [ 79%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/makara_interfaces/msg/detail/vector_nav_data__type_support_c.cpp.o[0m
+[6.898s] [ 79%] [32m[1mLinking CXX shared library libmakara_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.094s] [ 79%] Built target makara_interfaces__rosidl_typesupport_introspection_cpp
+[7.109s] [ 80%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/pid__type_support.cpp.o[0m
+[7.170s] [ 80%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[7.222s] [ 81%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/setpoint__type_support.cpp.o[0m
+[7.283s] [ 82%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/thruster_speeds__type_support.cpp.o[0m
+[7.297s] [ 83%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/thruster_forces__type_support.cpp.o[0m
+[7.377s] [ 83%] [32mBuilding CXX object CMakeFiles/makara_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/makara_interfaces/msg/detail/dds_fastrtps/vector_nav_data__type_support.cpp.o[0m
+[7.811s] [ 84%] [32m[1mLinking CXX shared library libmakara_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.867s] [ 84%] Built target makara_interfaces__rosidl_typesupport_fastrtps_c
+[7.961s] [ 85%] [32m[1mLinking CXX shared library libmakara_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.024s] [ 85%] Built target makara_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.041s] [ 85%] Built target makara_interfaces
+[8.059s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.814s] [ 86%] Built target makara_interfaces__py
+[8.835s] [ 89%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_pid_s.c.o[0m
+[8.835s] [ 89%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_depth_s.c.o[0m
+[8.835s] [ 89%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_combined_s.c.o[0m
+[8.836s] [ 89%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_thruster_speeds_s.c.o[0m
+[8.836s] [ 91%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_setpoint_s.c.o[0m
+[8.836s] [ 92%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_thruster_forces_s.c.o[0m
+[8.837s] [ 94%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_battery_status_s.c.o[0m
+[8.837s] [ 94%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_vector_nav_data_s.c.o[0m
+[8.837s] [ 95%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_ins_vel_s.c.o[0m
+[8.837s] [ 95%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_position_s.c.o[0m
+[8.837s] [ 89%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_move_cmd_s.c.o[0m
+[8.839s] [ 95%] [32mBuilding C object CMakeFiles/makara_interfaces__rosidl_generator_py.dir/rosidl_generator_py/makara_interfaces/msg/_move_cmds_s.c.o[0m
+[9.036s] [ 95%] [32m[1mLinking C shared library libmakara_interfaces__rosidl_generator_py.so[0m
+[9.072s] [ 95%] Built target makara_interfaces__rosidl_generator_py
+[9.088s] [ 97%] [32mBuilding C object CMakeFiles/makara_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/makara_interfaces/_makara_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.089s] [ 97%] [32mBuilding C object CMakeFiles/makara_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/makara_interfaces/_makara_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.089s] [ 97%] [32mBuilding C object CMakeFiles/makara_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/makara_interfaces/_makara_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.176s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/makara_interfaces/makara_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[9.181s] [100%] [32m[1mLinking C shared module rosidl_generator_py/makara_interfaces/makara_interfaces_s__rosidl_typesupport_c.so[0m
+[9.181s] [100%] [32m[1mLinking C shared module rosidl_generator_py/makara_interfaces/makara_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[9.205s] [100%] Built target makara_interfaces_s__rosidl_typesupport_fastrtps_c
+[9.209s] [100%] Built target makara_interfaces_s__rosidl_typesupport_introspection_c
+[9.210s] [100%] Built target makara_interfaces_s__rosidl_typesupport_c
+[9.279s] Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces -- -j16 -l16
+[9.279s] Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces
+[9.286s] -- Install configuration: ""
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/ament_index/resource_index/rosidl_interfaces/makara_interfaces
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/BatteryStatus.json
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Combined.json
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Depth.json
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/InsVel.json
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/MoveCmd.json
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/MoveCmds.json
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/PID.json
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Position.json
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Setpoint.json
+[9.286s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/ThrusterSpeeds.json
+[9.287s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/ThrusterForces.json
+[9.287s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/VectorNavData.json
+[9.287s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces
+[9.287s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg
+[9.287s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/position.h
+[9.287s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.287s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/ins_vel.h
+[9.287s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/thruster_speeds.h
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/move_cmds.h
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__functions.h
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__type_support.c
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__type_support.h
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__description.c
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__type_support.h
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__type_support.c
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__description.c
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__type_support.c
+[9.288s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__type_support.h
+[9.289s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__functions.h
+[9.289s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__type_support.c
+[9.289s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__struct.h
+[9.289s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__struct.h
+[9.289s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__functions.h
+[9.289s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__type_support.c
+[9.289s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__functions.h
+[9.289s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__type_support.c
+[9.289s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__type_support.c
+[9.290s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__struct.h
+[9.290s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__description.c
+[9.290s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__type_support.h
+[9.290s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__struct.h
+[9.290s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__functions.c
+[9.290s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__type_support.h
+[9.290s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__functions.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__description.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__functions.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__type_support.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__description.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__functions.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__functions.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__struct.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__type_support.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__functions.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__description.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__functions.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__description.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__struct.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__type_support.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__struct.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__type_support.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__functions.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__description.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__functions.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__functions.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__functions.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__type_support.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__type_support.h
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__functions.c
+[9.291s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__struct.h
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__struct.h
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__type_support.h
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__functions.c
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__functions.h
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__functions.c
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__struct.h
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__description.c
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__type_support.h
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__struct.h
+[9.292s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__struct.h
+[9.293s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__functions.c
+[9.293s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__type_support.h
+[9.293s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__description.c
+[9.293s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__functions.h
+[9.293s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__functions.c
+[9.293s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__type_support.c
+[9.293s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__functions.c
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__functions.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__description.c
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__type_support.c
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__type_support.c
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__description.c
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/vector_nav_data.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/move_cmd.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/battery_status.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/setpoint.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/combined.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/pid.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/depth.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/thruster_forces.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/environment/library_path.sh
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/environment/library_path.dsv
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_generator_c.so
+[9.294s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_generator_c.so" to ""
+[9.294s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces
+[9.294s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.294s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__rosidl_typesupport_fastrtps_c.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__rosidl_typesupport_fastrtps_c.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__rosidl_typesupport_fastrtps_c.h
+[9.294s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__rosidl_typesupport_fastrtps_c.h
+[9.295s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__rosidl_typesupport_fastrtps_c.h
+[9.295s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__rosidl_typesupport_fastrtps_c.h
+[9.295s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__rosidl_typesupport_fastrtps_c.h
+[9.295s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__rosidl_typesupport_fastrtps_c.h
+[9.295s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__rosidl_typesupport_fastrtps_c.h
+[9.295s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+[9.295s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[9.295s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__rosidl_typesupport_fastrtps_c.h
+[9.295s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.295s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.295s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces
+[9.295s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg
+[9.295s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__rosidl_typesupport_introspection_c.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__type_support.c
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.296s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_introspection_c.so
+[9.297s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_c.so
+[9.297s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_c.so" to ""
+[9.297s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces
+[9.297s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/thruster_forces.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/move_cmds.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/move_cmd.hpp
+[9.297s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__builder.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__builder.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__traits.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__traits.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__struct.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__struct.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__builder.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__traits.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__traits.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__builder.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__builder.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__type_support.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__struct.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__struct.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__traits.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__traits.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__type_support.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__struct.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__struct.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__type_support.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__type_support.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__struct.hpp
+[9.297s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__traits.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__type_support.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__builder.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__struct.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__type_support.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__traits.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__struct.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__builder.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__traits.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__struct.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__builder.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__builder.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__type_support.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__type_support.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__traits.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__builder.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__builder.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__traits.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__traits.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__struct.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__struct.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__builder.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__type_support.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__type_support.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__type_support.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__type_support.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/thruster_speeds.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/combined.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/depth.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/battery_status.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/position.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/ins_vel.hpp
+[9.298s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/setpoint.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/vector_nav_data.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/pid.hpp
+[9.299s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces
+[9.299s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.299s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__rosidl_typesupport_fastrtps_cpp.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__rosidl_typesupport_fastrtps_cpp.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__rosidl_typesupport_fastrtps_cpp.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/dds_fastrtps
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+[9.299s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__rosidl_typesupport_fastrtps_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__rosidl_typesupport_fastrtps_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__rosidl_typesupport_fastrtps_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.300s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.300s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces
+[9.300s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg
+[9.300s] -- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/vector_nav_data__rosidl_typesupport_introspection_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__rosidl_typesupport_introspection_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/combined__rosidl_typesupport_introspection_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__rosidl_typesupport_introspection_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_speeds__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/depth__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/ins_vel__rosidl_typesupport_introspection_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/thruster_forces__rosidl_typesupport_introspection_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmds__rosidl_typesupport_introspection_cpp.hpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__type_support.cpp
+[9.300s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__type_support.cpp
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/move_cmd__rosidl_typesupport_introspection_cpp.hpp
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/include/makara_interfaces/makara_interfaces/msg/detail/setpoint__rosidl_typesupport_introspection_cpp.hpp
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.301s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_cpp.so
+[9.301s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/environment/pythonpath.sh
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/environment/pythonpath.dsv
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces-0.0.0-py3.12.egg-info
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/_makara_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_depth.py
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_move_cmd.py
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_vector_nav_data_s.c
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_thruster_forces.py
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_battery_status.py
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_combined.py
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_vector_nav_data.py
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_pid_s.c
+[9.301s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_depth_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_combined_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_ins_vel_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_move_cmds_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_move_cmd_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_thruster_forces_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_ins_vel.py
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_move_cmds.py
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_thruster_speeds_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_pid.py
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_battery_status_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_setpoint.py
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_position_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_setpoint_s.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_position.py
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/__init__.py
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_thruster_speeds.py
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/makara_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/_makara_interfaces_s.ep.rosidl_typesupport_c.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/__init__.py
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/_makara_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/makara_interfaces_s__rosidl_typesupport_c.so
+[9.302s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/makara_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.343s] Listing '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces'...
+[9.343s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/__init__.py'...
+[9.343s] Listing '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg'...
+[9.343s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/__init__.py'...
+[9.343s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_battery_status.py'...
+[9.343s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_combined.py'...
+[9.343s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_depth.py'...
+[9.343s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_ins_vel.py'...
+[9.343s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_move_cmd.py'...
+[9.344s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_move_cmds.py'...
+[9.344s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_pid.py'...
+[9.344s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_position.py'...
+[9.344s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_setpoint.py'...
+[9.344s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_thruster_forces.py'...
+[9.344s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_thruster_speeds.py'...
+[9.344s] Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/msg/_vector_nav_data.py'...
+[9.348s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/makara_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[9.348s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/makara_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[9.348s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/makara_interfaces_s__rosidl_typesupport_introspection_c.so
+[9.349s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/makara_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[9.349s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/makara_interfaces_s__rosidl_typesupport_c.so
+[9.349s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/python3.12/site-packages/makara_interfaces/makara_interfaces_s__rosidl_typesupport_c.so" to ""
+[9.349s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_generator_py.so
+[9.349s] -- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/lib/libmakara_interfaces__rosidl_generator_py.so" to ""
+[9.349s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/BatteryStatus.idl
+[9.349s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Combined.idl
+[9.349s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Depth.idl
+[9.350s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/InsVel.idl
+[9.350s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/MoveCmd.idl
+[9.350s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/MoveCmds.idl
+[9.350s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/PID.idl
+[9.350s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Position.idl
+[9.350s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Setpoint.idl
+[9.350s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/ThrusterSpeeds.idl
+[9.350s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/ThrusterForces.idl
+[9.350s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/VectorNavData.idl
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/BatteryStatus.msg
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Combined.msg
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Depth.msg
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/InsVel.msg
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/MoveCmd.msg
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/MoveCmds.msg
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/PID.msg
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Position.msg
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/Setpoint.msg
+[9.351s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/ThrusterSpeeds.msg
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/ThrusterForces.msg
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/msg/VectorNavData.msg
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/ament_index/resource_index/package_run_dependencies/makara_interfaces
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/ament_index/resource_index/parent_prefix_path/makara_interfaces
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/environment/ament_prefix_path.sh
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/environment/ament_prefix_path.dsv
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/environment/path.sh
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/environment/path.dsv
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/local_setup.bash
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/local_setup.sh
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/local_setup.zsh
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/local_setup.dsv
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/package.dsv
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/ament_index/resource_index/packages/makara_interfaces
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/export_makara_interfaces__rosidl_generator_cExport.cmake
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/export_makara_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/export_makara_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.352s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/export_makara_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfaces__rosidl_typesupport_cExport.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/export_makara_interfaces__rosidl_generator_cppExport.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/export_makara_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/export_makara_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfaces__rosidl_typesupport_cppExport.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/export_makara_interfaces__rosidl_generator_pyExport.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/export_makara_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/rosidl_cmake-extras.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfacesConfig.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/cmake/makara_interfacesConfig-version.cmake
+[9.353s] -- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_interfaces/share/makara_interfaces/package.xml
+[9.356s] Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces

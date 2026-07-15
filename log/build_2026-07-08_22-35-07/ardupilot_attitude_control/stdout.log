@@ -1,0 +1,18 @@
+[100%] Built target attitude_controller_node
+-- Install configuration: ""
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/lib/ardupilot_attitude_control/attitude_controller_node
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ament_index/resource_index/package_run_dependencies/ardupilot_attitude_control
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ament_index/resource_index/parent_prefix_path/ardupilot_attitude_control
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/environment/path.sh
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/environment/path.dsv
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/local_setup.bash
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/local_setup.sh
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/local_setup.zsh
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/local_setup.dsv
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.dsv
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ament_index/resource_index/packages/ardupilot_attitude_control
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/cmake/ardupilot_attitude_controlConfig.cmake
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/cmake/ardupilot_attitude_controlConfig-version.cmake
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.xml

@@ -1,0 +1,271 @@
+// generated from rosidl_generator_c/resource/idl__functions.c.em
+// with input from makara_interfaces:msg/ThrusterSpeeds.idl
+// generated code does not contain a copyright notice
+#include "makara_interfaces/msg/detail/thruster_speeds__functions.h"
+
+#include <assert.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "rcutils/allocator.h"
+
+
+// Include directives for member types
+// Member `data`
+// Member `reverse`
+#include "rosidl_runtime_c/primitives_sequence_functions.h"
+
+bool
+makara_interfaces__msg__ThrusterSpeeds__init(makara_interfaces__msg__ThrusterSpeeds * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // data
+  if (!rosidl_runtime_c__int16__Sequence__init(&msg->data, 0)) {
+    makara_interfaces__msg__ThrusterSpeeds__fini(msg);
+    return false;
+  }
+  // reverse
+  if (!rosidl_runtime_c__int16__Sequence__init(&msg->reverse, 0)) {
+    makara_interfaces__msg__ThrusterSpeeds__fini(msg);
+    return false;
+  }
+  return true;
+}
+
+void
+makara_interfaces__msg__ThrusterSpeeds__fini(makara_interfaces__msg__ThrusterSpeeds * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // data
+  rosidl_runtime_c__int16__Sequence__fini(&msg->data);
+  // reverse
+  rosidl_runtime_c__int16__Sequence__fini(&msg->reverse);
+}
+
+bool
+makara_interfaces__msg__ThrusterSpeeds__are_equal(const makara_interfaces__msg__ThrusterSpeeds * lhs, const makara_interfaces__msg__ThrusterSpeeds * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  // data
+  if (!rosidl_runtime_c__int16__Sequence__are_equal(
+      &(lhs->data), &(rhs->data)))
+  {
+    return false;
+  }
+  // reverse
+  if (!rosidl_runtime_c__int16__Sequence__are_equal(
+      &(lhs->reverse), &(rhs->reverse)))
+  {
+    return false;
+  }
+  return true;
+}
+
+bool
+makara_interfaces__msg__ThrusterSpeeds__copy(
+  const makara_interfaces__msg__ThrusterSpeeds * input,
+  makara_interfaces__msg__ThrusterSpeeds * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  // data
+  if (!rosidl_runtime_c__int16__Sequence__copy(
+      &(input->data), &(output->data)))
+  {
+    return false;
+  }
+  // reverse
+  if (!rosidl_runtime_c__int16__Sequence__copy(
+      &(input->reverse), &(output->reverse)))
+  {
+    return false;
+  }
+  return true;
+}
+
+makara_interfaces__msg__ThrusterSpeeds *
+makara_interfaces__msg__ThrusterSpeeds__create(void)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  makara_interfaces__msg__ThrusterSpeeds * msg = (makara_interfaces__msg__ThrusterSpeeds *)allocator.allocate(sizeof(makara_interfaces__msg__ThrusterSpeeds), allocator.state);
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(makara_interfaces__msg__ThrusterSpeeds));
+  bool success = makara_interfaces__msg__ThrusterSpeeds__init(msg);
+  if (!success) {
+    allocator.deallocate(msg, allocator.state);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+makara_interfaces__msg__ThrusterSpeeds__destroy(makara_interfaces__msg__ThrusterSpeeds * msg)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (msg) {
+    makara_interfaces__msg__ThrusterSpeeds__fini(msg);
+  }
+  allocator.deallocate(msg, allocator.state);
+}
+
+
+bool
+makara_interfaces__msg__ThrusterSpeeds__Sequence__init(makara_interfaces__msg__ThrusterSpeeds__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  makara_interfaces__msg__ThrusterSpeeds * data = NULL;
+
+  if (size) {
+    data = (makara_interfaces__msg__ThrusterSpeeds *)allocator.zero_allocate(size, sizeof(makara_interfaces__msg__ThrusterSpeeds), allocator.state);
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = makara_interfaces__msg__ThrusterSpeeds__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        makara_interfaces__msg__ThrusterSpeeds__fini(&data[i - 1]);
+      }
+      allocator.deallocate(data, allocator.state);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+makara_interfaces__msg__ThrusterSpeeds__Sequence__fini(makara_interfaces__msg__ThrusterSpeeds__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      makara_interfaces__msg__ThrusterSpeeds__fini(&array->data[i]);
+    }
+    allocator.deallocate(array->data, allocator.state);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+makara_interfaces__msg__ThrusterSpeeds__Sequence *
+makara_interfaces__msg__ThrusterSpeeds__Sequence__create(size_t size)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  makara_interfaces__msg__ThrusterSpeeds__Sequence * array = (makara_interfaces__msg__ThrusterSpeeds__Sequence *)allocator.allocate(sizeof(makara_interfaces__msg__ThrusterSpeeds__Sequence), allocator.state);
+  if (!array) {
+    return NULL;
+  }
+  bool success = makara_interfaces__msg__ThrusterSpeeds__Sequence__init(array, size);
+  if (!success) {
+    allocator.deallocate(array, allocator.state);
+    return NULL;
+  }
+  return array;
+}
+
+void
+makara_interfaces__msg__ThrusterSpeeds__Sequence__destroy(makara_interfaces__msg__ThrusterSpeeds__Sequence * array)
+{
+  rcutils_allocator_t allocator = rcutils_get_default_allocator();
+  if (array) {
+    makara_interfaces__msg__ThrusterSpeeds__Sequence__fini(array);
+  }
+  allocator.deallocate(array, allocator.state);
+}
+
+bool
+makara_interfaces__msg__ThrusterSpeeds__Sequence__are_equal(const makara_interfaces__msg__ThrusterSpeeds__Sequence * lhs, const makara_interfaces__msg__ThrusterSpeeds__Sequence * rhs)
+{
+  if (!lhs || !rhs) {
+    return false;
+  }
+  if (lhs->size != rhs->size) {
+    return false;
+  }
+  for (size_t i = 0; i < lhs->size; ++i) {
+    if (!makara_interfaces__msg__ThrusterSpeeds__are_equal(&(lhs->data[i]), &(rhs->data[i]))) {
+      return false;
+    }
+  }
+  return true;
+}
+
+bool
+makara_interfaces__msg__ThrusterSpeeds__Sequence__copy(
+  const makara_interfaces__msg__ThrusterSpeeds__Sequence * input,
+  makara_interfaces__msg__ThrusterSpeeds__Sequence * output)
+{
+  if (!input || !output) {
+    return false;
+  }
+  if (output->capacity < input->size) {
+    const size_t allocation_size =
+      input->size * sizeof(makara_interfaces__msg__ThrusterSpeeds);
+    rcutils_allocator_t allocator = rcutils_get_default_allocator();
+    makara_interfaces__msg__ThrusterSpeeds * data =
+      (makara_interfaces__msg__ThrusterSpeeds *)allocator.reallocate(
+      output->data, allocation_size, allocator.state);
+    if (!data) {
+      return false;
+    }
+    // If reallocation succeeded, memory may or may not have been moved
+    // to fulfill the allocation request, invalidating output->data.
+    output->data = data;
+    for (size_t i = output->capacity; i < input->size; ++i) {
+      if (!makara_interfaces__msg__ThrusterSpeeds__init(&output->data[i])) {
+        // If initialization of any new item fails, roll back
+        // all previously initialized items. Existing items
+        // in output are to be left unmodified.
+        for (; i-- > output->capacity; ) {
+          makara_interfaces__msg__ThrusterSpeeds__fini(&output->data[i]);
+        }
+        return false;
+      }
+    }
+    output->capacity = input->size;
+  }
+  output->size = input->size;
+  for (size_t i = 0; i < input->size; ++i) {
+    if (!makara_interfaces__msg__ThrusterSpeeds__copy(
+        &(input->data[i]), &(output->data[i])))
+    {
+      return false;
+    }
+  }
+  return true;
+}

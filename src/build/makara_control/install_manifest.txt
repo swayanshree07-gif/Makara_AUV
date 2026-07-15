@@ -1,0 +1,17 @@
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/lib/makara_control/makara_control_node
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/launch/makara_control_launch.py
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/ament_index/resource_index/package_run_dependencies/makara_control
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/ament_index/resource_index/parent_prefix_path/makara_control
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/environment/ament_prefix_path.sh
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/environment/ament_prefix_path.dsv
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/environment/path.sh
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/environment/path.dsv
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/local_setup.bash
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/local_setup.sh
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/local_setup.zsh
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/local_setup.dsv
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/package.dsv
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/ament_index/resource_index/packages/makara_control
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/cmake/makara_controlConfig.cmake
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/cmake/makara_controlConfig-version.cmake
+/home/swayanshree/projects/Makara-AUV-ROS2/src/install/makara_control/share/makara_control/package.xml

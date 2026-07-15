@@ -1,0 +1,2 @@
+[console_scripts]
+serial_node = hammerhead_serial.serial_node:main

@@ -1,0 +1,41 @@
+[0.893s] Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/data_sync': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/data_sync build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/install.log --single-version-externally-managed install_data
+[1.090s] running egg_info
+[1.090s] creating ../build/data_sync/data_sync.egg-info
+[1.101s] writing ../build/data_sync/data_sync.egg-info/PKG-INFO
+[1.101s] writing dependency_links to ../build/data_sync/data_sync.egg-info/dependency_links.txt
+[1.102s] writing entry points to ../build/data_sync/data_sync.egg-info/entry_points.txt
+[1.102s] writing requirements to ../build/data_sync/data_sync.egg-info/requires.txt
+[1.102s] writing top-level names to ../build/data_sync/data_sync.egg-info/top_level.txt
+[1.102s] writing manifest file '../build/data_sync/data_sync.egg-info/SOURCES.txt'
+[1.125s] reading manifest file '../build/data_sync/data_sync.egg-info/SOURCES.txt'
+[1.125s] writing manifest file '../build/data_sync/data_sync.egg-info/SOURCES.txt'
+[1.125s] running build
+[1.125s] running build_py
+[1.125s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build
+[1.125s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build/lib
+[1.126s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build/lib/data_sync
+[1.126s] copying data_sync/stability_sync_node.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build/lib/data_sync
+[1.126s] copying data_sync/__init__.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build/lib/data_sync
+[1.126s] copying data_sync/makara_to_bluerov2.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build/lib/data_sync
+[1.126s] running install
+[1.130s] running install_lib
+[1.141s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages/data_sync
+[1.141s] copying /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build/lib/data_sync/stability_sync_node.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages/data_sync
+[1.141s] copying /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build/lib/data_sync/__init__.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages/data_sync
+[1.141s] copying /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build/lib/data_sync/makara_to_bluerov2.py -> /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages/data_sync
+[1.141s] byte-compiling /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages/data_sync/stability_sync_node.py to stability_sync_node.cpython-312.pyc
+[1.142s] byte-compiling /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages/data_sync/__init__.py to __init__.cpython-312.pyc
+[1.142s] byte-compiling /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages/data_sync/makara_to_bluerov2.py to makara_to_bluerov2.cpython-312.pyc
+[1.142s] running install_data
+[1.142s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/share/ament_index
+[1.142s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/share/ament_index/resource_index
+[1.142s] creating /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/share/ament_index/resource_index/packages
+[1.142s] copying resource/data_sync -> /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/share/ament_index/resource_index/packages
+[1.142s] copying package.xml -> /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/share/data_sync
+[1.143s] running install_egg_info
+[1.155s] Copying ../build/data_sync/data_sync.egg-info to /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages/data_sync-0.0.0-py3.12.egg-info
+[1.155s] running install_scripts
+[1.256s] Installing makara_to_bluerov2 script to /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/data_sync
+[1.256s] Installing stability_sync_node script to /home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/data_sync
+[1.256s] writing list of installed files to '/home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/install.log'
+[1.289s] Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/data_sync' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/src/install/data_sync/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/data_sync build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/src/build/data_sync/install.log --single-version-externally-managed install_data

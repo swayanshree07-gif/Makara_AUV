@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/uuv_descriptions/uuv_descriptions.egg-info/PKG-INFO
+../../build/uuv_descriptions/uuv_descriptions.egg-info/SOURCES.txt
+../../build/uuv_descriptions/uuv_descriptions.egg-info/dependency_links.txt
+../../build/uuv_descriptions/uuv_descriptions.egg-info/requires.txt
+../../build/uuv_descriptions/uuv_descriptions.egg-info/top_level.txt
+../../build/uuv_descriptions/uuv_descriptions.egg-info/zip-safe
+resource/uuv_descriptions
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+urdf/common.urdf.xacro
+uuv_descriptions/__init__.py

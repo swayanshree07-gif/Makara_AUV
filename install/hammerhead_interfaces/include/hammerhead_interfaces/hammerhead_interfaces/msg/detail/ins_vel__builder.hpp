@@ -1,0 +1,59 @@
+// generated from rosidl_generator_cpp/resource/idl__builder.hpp.em
+// with input from hammerhead_interfaces:msg/InsVel.idl
+// generated code does not contain a copyright notice
+
+// IWYU pragma: private, include "hammerhead_interfaces/msg/ins_vel.hpp"
+
+
+#ifndef HAMMERHEAD_INTERFACES__MSG__DETAIL__INS_VEL__BUILDER_HPP_
+#define HAMMERHEAD_INTERFACES__MSG__DETAIL__INS_VEL__BUILDER_HPP_
+
+#include <algorithm>
+#include <utility>
+
+#include "hammerhead_interfaces/msg/detail/ins_vel__struct.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
+
+
+namespace hammerhead_interfaces
+{
+
+namespace msg
+{
+
+namespace builder
+{
+
+class Init_InsVel_vel
+{
+public:
+  Init_InsVel_vel()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  ::hammerhead_interfaces::msg::InsVel vel(::hammerhead_interfaces::msg::InsVel::_vel_type arg)
+  {
+    msg_.vel = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::hammerhead_interfaces::msg::InsVel msg_;
+};
+
+}  // namespace builder
+
+}  // namespace msg
+
+template<typename MessageType>
+auto build();
+
+template<>
+inline
+auto build<::hammerhead_interfaces::msg::InsVel>()
+{
+  return hammerhead_interfaces::msg::builder::Init_InsVel_vel();
+}
+
+}  // namespace hammerhead_interfaces
+
+#endif  // HAMMERHEAD_INTERFACES__MSG__DETAIL__INS_VEL__BUILDER_HPP_

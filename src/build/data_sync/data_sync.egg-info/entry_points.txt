@@ -1,0 +1,3 @@
+[console_scripts]
+makara_to_bluerov2 = data_sync.makara_to_bluerov2:main
+stability_sync_node = data_sync.stability_sync_node:main

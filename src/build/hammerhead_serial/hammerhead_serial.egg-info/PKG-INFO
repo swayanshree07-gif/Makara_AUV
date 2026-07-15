@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hammerhead-serial
+Version: 0.0.0
+Summary: Hammerhead AUV Serial Node ROS 2 Port
+Maintainer: Yamin
+Maintainer-email: alyaminbinharis@gmail.com
+License: MIT

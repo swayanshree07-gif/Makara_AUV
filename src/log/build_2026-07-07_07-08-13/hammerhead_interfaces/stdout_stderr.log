@@ -1,0 +1,561 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /usr/bin/python3  
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (2.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/swayanshree/projects/Makara-AUV-ROS2/src/build/hammerhead_interfaces
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_hammerhead_interfaces
+running egg_info
+creating hammerhead_interfaces.egg-info
+writing hammerhead_interfaces.egg-info/PKG-INFO
+writing dependency_links to hammerhead_interfaces.egg-info/dependency_links.txt
+writing top-level names to hammerhead_interfaces.egg-info/top_level.txt
+writing manifest file 'hammerhead_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'hammerhead_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'hammerhead_interfaces.egg-info/SOURCES.txt'
+[  1%] Built target hammerhead_interfaces__rosidl_generator_type_description
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_build_hammerhead_interfaces_egg
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target hammerhead_interfaces__cpp
+[  3%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/battery_status__type_support.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/combined__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/battery_status__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/battery_status__description.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/combined__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/combined__type_support.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/depth__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/depth__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/depth__type_support.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/ins_vel__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/ins_vel__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/ins_vel__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/move_cmd__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/move_cmd__description.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/move_cmd__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/move_cmds__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/move_cmds__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/pid__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/move_cmds__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/pid__type_support.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/pid__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/position__description.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/position__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/position__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/setpoint__description.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/thruster_speeds__description.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/setpoint__type_support.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/setpoint__functions.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/thruster_speeds__functions.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/vector_nav_data__description.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/vector_nav_data__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/thruster_speeds__type_support.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hammerhead_interfaces/msg/detail/vector_nav_data__functions.c.o[0m
+[ 27%] [32m[1mLinking C shared library libhammerhead_interfaces__rosidl_generator_c.so[0m
+[ 27%] Built target hammerhead_interfaces__rosidl_generator_c
+[ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/depth__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/battery_status__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/ins_vel__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/combined__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/move_cmd__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/move_cmds__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/pid__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/vector_nav_data__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/thruster_speeds__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/position__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hammerhead_interfaces/msg/setpoint__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/battery_status__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/combined__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/depth__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/ins_vel__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/move_cmd__type_support.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library libhammerhead_interfaces__rosidl_typesupport_c.so[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/move_cmds__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/position__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/setpoint__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/pid__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/thruster_speeds__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hammerhead_interfaces/msg/detail/vector_nav_data__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/battery_status__type_support.cpp.o[0m
+[ 49%] Built target hammerhead_interfaces__rosidl_typesupport_c
+[ 50%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/combined__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/depth__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/battery_status__type_support.c.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/combined__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/depth__type_support.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/depth__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/combined__type_support.c.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/ins_vel__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/ins_vel__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/move_cmd__type_support.cpp.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/ins_vel__type_support.c.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/move_cmd__type_support.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/move_cmds__type_support.cpp.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/move_cmd__type_support.c.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/pid__type_support.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/move_cmds__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/battery_status__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/move_cmds__type_support.c.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/combined__type_support_c.cpp.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/pid__type_support.c.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[ 67%] [32m[1mLinking CXX shared library libhammerhead_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/pid__type_support.cpp.o[0m
+[ 67%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/position__type_support.c.o[0m
+[ 67%] Built target hammerhead_interfaces__rosidl_typesupport_introspection_cpp
+[ 67%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/setpoint__type_support.cpp.o[0m
+[ 68%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/setpoint__type_support.c.o[0m
+[ 69%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/thruster_speeds__type_support.c.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/depth__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/position__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/setpoint__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/thruster_speeds__type_support.cpp.o[0m
+[ 74%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hammerhead_interfaces/msg/detail/vector_nav_data__type_support.c.o[0m
+[ 74%] [32m[1mLinking C shared library libhammerhead_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/thruster_speeds__type_support.cpp.o[0m
+[ 75%] Built target hammerhead_interfaces__rosidl_typesupport_introspection_c
+[ 75%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hammerhead_interfaces/msg/vector_nav_data__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/ins_vel__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hammerhead_interfaces/msg/detail/dds_fastrtps/vector_nav_data__type_support.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/move_cmd__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/move_cmds__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/pid__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/position__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/setpoint__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/thruster_speeds__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/hammerhead_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hammerhead_interfaces/msg/detail/vector_nav_data__type_support_c.cpp.o[0m
+[ 83%] [32m[1mLinking CXX shared library libhammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 84%] [32m[1mLinking CXX shared library libhammerhead_interfaces__rosidl_typesupport_cpp.so[0m
+[ 84%] Built target hammerhead_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 84%] Built target hammerhead_interfaces__rosidl_typesupport_cpp
+[ 85%] [32m[1mLinking CXX shared library libhammerhead_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 85%] Built target hammerhead_interfaces__rosidl_typesupport_fastrtps_c
+[ 85%] Built target hammerhead_interfaces
+[ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 86%] Built target hammerhead_interfaces__py
+[ 90%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_battery_status_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_setpoint_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_combined_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_position_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_move_cmds_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_thruster_speeds_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_vector_nav_data_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_depth_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_move_cmd_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_ins_vel_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/hammerhead_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hammerhead_interfaces/msg/_pid_s.c.o[0m
+[ 95%] [32m[1mLinking C shared library libhammerhead_interfaces__rosidl_generator_py.so[0m
+[ 95%] Built target hammerhead_interfaces__rosidl_generator_py
+[ 95%] [32mBuilding C object CMakeFiles/hammerhead_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hammerhead_interfaces/_hammerhead_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/hammerhead_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hammerhead_interfaces/_hammerhead_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/hammerhead_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/hammerhead_interfaces/_hammerhead_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 99%] [32m[1mLinking C shared module rosidl_generator_py/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_c.so[0m
+[100%] Built target hammerhead_interfaces_s__rosidl_typesupport_fastrtps_c
+[100%] Built target hammerhead_interfaces_s__rosidl_typesupport_introspection_c
+[100%] Built target hammerhead_interfaces_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/ament_index/resource_index/rosidl_interfaces/hammerhead_interfaces
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/BatteryStatus.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Combined.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Depth.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/InsVel.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/MoveCmd.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/MoveCmds.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/PID.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Position.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Setpoint.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/ThrusterSpeeds.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/VectorNavData.json
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/position.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/ins_vel.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/thruster_speeds.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/move_cmds.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__struct.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__type_support.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__functions.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__functions.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__description.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/vector_nav_data.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/move_cmd.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/battery_status.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/setpoint.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/combined.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/pid.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/depth.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/environment/library_path.sh
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/environment/library_path.dsv
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__rosidl_typesupport_introspection_c.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__type_support.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/move_cmds.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/move_cmd.hpp
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__traits.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__struct.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__builder.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__type_support.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/thruster_speeds.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/combined.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/depth.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/battery_status.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/position.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/ins_vel.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/setpoint.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/vector_nav_data.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/pid.hpp
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/dds_fastrtps
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg
+-- Up-to-date: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/vector_nav_data__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/combined__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/thruster_speeds__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/depth__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/ins_vel__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmds__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__type_support.cpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/move_cmd__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/include/hammerhead_interfaces/hammerhead_interfaces/msg/detail/setpoint__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/environment/pythonpath.sh
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/environment/pythonpath.dsv
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces-0.0.0-py3.12.egg-info
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_c.so
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/_hammerhead_interfaces_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/_hammerhead_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_depth.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_move_cmd.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_vector_nav_data_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_battery_status.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_combined.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_vector_nav_data.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_pid_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_depth_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_combined_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_ins_vel_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_move_cmds_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_move_cmd_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_ins_vel.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_move_cmds.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_thruster_speeds_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_pid.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_battery_status_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_setpoint.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_position_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_setpoint_s.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_position.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/__init__.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_thruster_speeds.py
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/_hammerhead_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/__init__.py
+Listing '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/__init__.py'...
+Listing '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/__init__.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_battery_status.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_combined.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_depth.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_ins_vel.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_move_cmd.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_move_cmds.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_pid.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_position.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_setpoint.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_thruster_speeds.py'...
+Compiling '/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/msg/_vector_nav_data.py'...
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/python3.12/site-packages/hammerhead_interfaces/hammerhead_interfaces_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/lib/libhammerhead_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/BatteryStatus.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Combined.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Depth.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/InsVel.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/MoveCmd.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/MoveCmds.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/PID.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Position.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Setpoint.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/ThrusterSpeeds.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/VectorNavData.idl
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/BatteryStatus.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Combined.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Depth.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/InsVel.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/MoveCmd.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/MoveCmds.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/PID.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Position.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/Setpoint.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/ThrusterSpeeds.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/msg/VectorNavData.msg
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/ament_index/resource_index/package_run_dependencies/hammerhead_interfaces
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/ament_index/resource_index/parent_prefix_path/hammerhead_interfaces
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/environment/path.sh
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/environment/path.dsv
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/local_setup.bash
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/local_setup.sh
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/local_setup.zsh
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/local_setup.dsv
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/package.dsv
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/ament_index/resource_index/packages/hammerhead_interfaces
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/export_hammerhead_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/export_hammerhead_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/export_hammerhead_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/export_hammerhead_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/export_hammerhead_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/export_hammerhead_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/export_hammerhead_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/export_hammerhead_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/export_hammerhead_interfaces__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfacesConfig.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/cmake/hammerhead_interfacesConfig-version.cmake
+-- Installing: /home/swayanshree/projects/Makara-AUV-ROS2/src/install/hammerhead_interfaces/share/hammerhead_interfaces/package.xml

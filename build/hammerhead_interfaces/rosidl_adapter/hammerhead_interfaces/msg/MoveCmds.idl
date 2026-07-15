@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hammerhead_interfaces/msg/MoveCmds.msg
+// generated code does not contain a copyright notice
+
+#include "hammerhead_interfaces/msg/MoveCmd.idl"
+
+module hammerhead_interfaces {
+  module msg {
+    struct MoveCmds {
+      int32 len;
+
+      sequence<hammerhead_interfaces::msg::MoveCmd> list;
+    };
+  };
+};

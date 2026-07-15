@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "makara_interfaces__py",
+		"source" : "/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces/makara_interfaces__py"
+	}
+}

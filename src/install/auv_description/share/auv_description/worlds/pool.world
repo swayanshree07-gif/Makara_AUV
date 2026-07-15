@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="sauvc_pool_world">
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <gravity>0 0 -9.8</gravity>
+
+    <plugin filename="libignition-gazebo-physics-system.so" name="ignition::gazebo::systems::Physics"/>
+    <plugin filename="libignition-gazebo-user-commands-system.so" name="ignition::gazebo::systems::UserCommands"/>
+    <plugin filename="libignition-gazebo-scene-broadcaster-system.so" name="ignition::gazebo::systems::SceneBroadcaster"/>
+    <plugin filename="libignition-gazebo-sensors-system.so" name="ignition::gazebo::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin filename="libignition-gazebo-imu-system.so" name="ignition::gazebo::systems::Imu"/>
+    <plugin filename="libignition-gazebo-buoyancy-system.so" name="ignition::gazebo::systems::Buoyancy">
+      <graded_buoyancy>
+        <default_density>1000</default_density>
+        <density_change>
+          <above_depth>2.0</above_depth>
+          <density>1</density>
+        </density_change>
+      </graded_buoyancy>
+    </plugin>
+
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <scene>
+      <ambient>0.4 0.6 0.8 1</ambient>
+      <background>0.1 0.3 0.6 1</background>
+      <sky><clouds><speed>12</speed></clouds></sky>
+    </scene>
+
+    <model name="pool_structure">
+      <static>true</static>
+      <link name="floor">
+        <pose>0 0 0 0 0 0</pose>
+        <visual name="visual">
+          <geometry><box><size>25 16 0.1</size></box></geometry>
+          <material><ambient>0.8 0.9 1.0 1</ambient><diffuse>0.8 0.9 1.0 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>25 16 0.1</size></box></geometry>
+        </collision>
+      </link>
+      <link name="wall_n">
+        <pose>0 8 1 0 0 0</pose>
+        <visual name="visual"><geometry><box><size>25 0.1 2</size></box></geometry><material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material></visual>
+        <collision name="collision"><geometry><box><size>25 0.1 2</size></box></geometry></collision>
+      </link>
+      <link name="wall_s">
+        <pose>0 -8 1 0 0 0</pose>
+        <visual name="visual"><geometry><box><size>25 0.1 2</size></box></geometry><material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material></visual>
+        <collision name="collision"><geometry><box><size>25 0.1 2</size></box></geometry></collision>
+      </link>
+      <link name="wall_e">
+        <pose>12.5 0 1 0 0 0</pose>
+        <visual name="visual"><geometry><box><size>0.1 16 2</size></box></geometry><material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material></visual>
+        <collision name="collision"><geometry><box><size>0.1 16 2</size></box></geometry></collision>
+      </link>
+      <link name="wall_w">
+        <pose>-12.5 0 1 0 0 0</pose>
+        <visual name="visual"><geometry><box><size>0.1 16 2</size></box></geometry><material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material></visual>
+        <collision name="collision"><geometry><box><size>0.1 16 2</size></box></geometry></collision>
+      </link>
+    </model>
+
+    <model name="water_surface">
+      <static>true</static>
+      <link name="link">
+        <pose>0 0 2.0 0 0 0</pose>
+        <visual name="visual">
+          <geometry><box><size>25 16 0.01</size></box></geometry>
+          <material><ambient>0.0 0.5 0.8 0.2</ambient><diffuse>0.0 0.5 0.8 0.2</diffuse></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- BlueROV2 embedded directly - bypasses URDF spawner bug in Ignition 6 -->
+    <model name="bluerov2">
+      <pose>0 0 1.5 0 0 0</pose>
+      <link name="base_link">
+        <inertial>
+          <pose>0 0 -0.05 0 0 0</pose>
+          <mass>37</mass>
+          <inertia>
+            <ixx>1.5</ixx><ixy>0</ixy><ixz>0</ixz>
+            <iyy>2.1</iyy><iyz>0</iyz>
+            <izz>2.1</izz>
+          </inertia>
+        </inertial>
+        <collision name="base_link_collision">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry><box><size>0.45 0.34 0.26</size></box></geometry>
+        </collision>
+        <visual name="base_link_visual">
+          <pose>0 0 0 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>model://bluerov2_description/meshes/bluerov2_noprop.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <buoyancy>
+          <volume>0.0397</volume>
+          <center_of_volume>0 0 0</center_of_volume>
+        </buoyancy>
+      <sensor name="imu_sensor" type="imu"><always_on>1</always_on><update_rate>50</update_rate><visualize>true</visualize><topic>/imu/data</topic></sensor>
+      </link>
+
+      <joint name="thruster1_joint" type="revolute">
+        <pose relative_to="base_link">0.1355 -0.1 -0.0725 0 0 0.7853981634</pose>
+        <parent>base_link</parent><child>thruster1</child>
+        <axis><xyz>1 0 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit></axis>
+      </joint>
+      <link name="thruster1">
+        <pose relative_to="thruster1_joint">0 0 0 0 0 0</pose>
+        <inertial><pose>0.0175 0 0 0 0 0</pose><mass>0.1</mass><inertia><ixx>0.000125</ixx><ixy>0</ixy><ixz>0</ixz><iyy>7.27e-05</iyy><iyz>0</iyz><izz>7.27e-05</izz></inertia></inertial>
+        <visual name="thruster1_visual"><pose>0 0 0 0 0 0</pose><geometry><mesh><scale>1 1 1</scale><uri>model://bluerov2_description/meshes/bluerov2_propcw.dae</uri></mesh></geometry></visual>
+      </link>
+
+      <joint name="thruster2_joint" type="revolute">
+        <pose relative_to="base_link">0.1355 0.1 -0.0725 0 0 -0.7853981634</pose>
+        <parent>base_link</parent><child>thruster2</child>
+        <axis><xyz>1 0 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit></axis>
+      </joint>
+      <link name="thruster2">
+        <pose relative_to="thruster2_joint">0 0 0 0 0 0</pose>
+        <inertial><pose>0.0175 0 0 0 0 0</pose><mass>0.1</mass><inertia><ixx>0.000125</ixx><ixy>0</ixy><ixz>0</ixz><iyy>7.27e-05</iyy><iyz>0</iyz><izz>7.27e-05</izz></inertia></inertial>
+        <visual name="thruster2_visual"><pose>0 0 0 0 0 0</pose><geometry><mesh><scale>1 1 1</scale><uri>model://bluerov2_description/meshes/bluerov2_propcw.dae</uri></mesh></geometry></visual>
+      </link>
+
+      <joint name="thruster3_joint" type="revolute">
+        <pose relative_to="base_link">-0.1475 -0.1 -0.0725 0 0 2.3561944902</pose>
+        <parent>base_link</parent><child>thruster3</child>
+        <axis><xyz>-1 0 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit></axis>
+      </joint>
+      <link name="thruster3">
+        <pose relative_to="thruster3_joint">0 0 0 0 0 0</pose>
+        <inertial><pose>0.0175 0 0 0 0 0</pose><mass>0.1</mass><inertia><ixx>0.000125</ixx><ixy>0</ixy><ixz>0</ixz><iyy>7.27e-05</iyy><iyz>0</iyz><izz>7.27e-05</izz></inertia></inertial>
+        <visual name="thruster3_visual"><pose>0 0 0 0 0 0</pose><geometry><mesh><scale>1 1 1</scale><uri>model://bluerov2_description/meshes/bluerov2_propccw.dae</uri></mesh></geometry></visual>
+      </link>
+
+      <joint name="thruster4_joint" type="revolute">
+        <pose relative_to="base_link">-0.1475 0.1 -0.0725 0 0 -2.3561944902</pose>
+        <parent>base_link</parent><child>thruster4</child>
+        <axis><xyz>-1 0 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit></axis>
+      </joint>
+      <link name="thruster4">
+        <pose relative_to="thruster4_joint">0 0 0 0 0 0</pose>
+        <inertial><pose>0.0175 0 0 0 0 0</pose><mass>0.1</mass><inertia><ixx>0.000125</ixx><ixy>0</ixy><ixz>0</ixz><iyy>7.27e-05</iyy><iyz>0</iyz><izz>7.27e-05</izz></inertia></inertial>
+        <visual name="thruster4_visual"><pose>0 0 0 0 0 0</pose><geometry><mesh><scale>1 1 1</scale><uri>model://bluerov2_description/meshes/bluerov2_propccw.dae</uri></mesh></geometry></visual>
+      </link>
+
+      <joint name="thruster5_joint" type="revolute">
+        <pose relative_to="base_link">0.12 0.218 -0.02 0 -1.5707963268 0</pose>
+        <parent>base_link</parent><child>thruster5</child>
+        <axis><xyz>1 0 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit></axis>
+      </joint>
+      <link name="thruster5">
+        <pose relative_to="thruster5_joint">0 0 0 0 0 0</pose>
+        <inertial><pose>0.0175 0 0 0 0 0</pose><mass>0.1</mass><inertia><ixx>0.000125</ixx><ixy>0</ixy><ixz>0</ixz><iyy>7.27e-05</iyy><iyz>0</iyz><izz>7.27e-05</izz></inertia></inertial>
+        <visual name="thruster5_visual"><pose>0 0 0 0 0 0</pose><geometry><mesh><scale>1 1 1</scale><uri>model://bluerov2_description/meshes/bluerov2_propcw.dae</uri></mesh></geometry></visual>
+      </link>
+
+      <joint name="thruster6_joint" type="revolute">
+        <pose relative_to="base_link">0.12 -0.218 -0.02 0 -1.5707963268 0</pose>
+        <parent>base_link</parent><child>thruster6</child>
+        <axis><xyz>-1 0 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit></axis>
+      </joint>
+      <link name="thruster6">
+        <pose relative_to="thruster6_joint">0 0 0 0 0 0</pose>
+        <inertial><pose>0.0175 0 0 0 0 0</pose><mass>0.1</mass><inertia><ixx>0.000125</ixx><ixy>0</ixy><ixz>0</ixz><iyy>7.27e-05</iyy><iyz>0</iyz><izz>7.27e-05</izz></inertia></inertial>
+        <visual name="thruster6_visual"><pose>0 0 0 0 0 0</pose><geometry><mesh><scale>1 1 1</scale><uri>model://bluerov2_description/meshes/bluerov2_propccw.dae</uri></mesh></geometry></visual>
+      </link>
+
+      <joint name="thruster7_joint" type="revolute">
+        <pose relative_to="base_link">-0.12 0.218 -0.02 0 -1.5707963268 0</pose>
+        <parent>base_link</parent><child>thruster7</child>
+        <axis><xyz>1 0 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit></axis>
+      </joint>
+      <link name="thruster7">
+        <pose relative_to="thruster7_joint">0 0 0 0 0 0</pose>
+        <inertial><pose>0.0175 0 0 0 0 0</pose><mass>0.1</mass><inertia><ixx>0.000125</ixx><ixy>0</ixy><ixz>0</ixz><iyy>7.27e-05</iyy><iyz>0</iyz><izz>7.27e-05</izz></inertia></inertial>
+        <visual name="thruster7_visual"><pose>0 0 0 0 0 0</pose><geometry><mesh><scale>1 1 1</scale><uri>model://bluerov2_description/meshes/bluerov2_propcw.dae</uri></mesh></geometry></visual>
+      </link>
+
+      <joint name="thruster8_joint" type="revolute">
+        <pose relative_to="base_link">-0.12 -0.218 -0.02 0 -1.5707963268 0</pose>
+        <parent>base_link</parent><child>thruster8</child>
+        <axis><xyz>-1 0 0</xyz><limit><lower>-1e16</lower><upper>1e16</upper></limit></axis>
+      </joint>
+      <link name="thruster8">
+        <pose relative_to="thruster8_joint">0 0 0 0 0 0</pose>
+        <inertial><pose>0.0175 0 0 0 0 0</pose><mass>0.1</mass><inertia><ixx>0.000125</ixx><ixy>0</ixy><ixz>0</ixz><iyy>7.27e-05</iyy><iyz>0</iyz><izz>7.27e-05</izz></inertia></inertial>
+        <visual name="thruster8_visual"><pose>0 0 0 0 0 0</pose><geometry><mesh><scale>1 1 1</scale><uri>model://bluerov2_description/meshes/bluerov2_propccw.dae</uri></mesh></geometry></visual>
+      </link>
+
+      <plugin name="ignition::gazebo::systems::Hydrodynamics" filename="libignition-gazebo-hydrodynamics-system.so">
+        <link_name>base_link</link_name>
+        <xDotU>-5.5</xDotU><yDotV>-12.7</yDotV><zDotW>-14.57</zDotW>
+        <kDotP>-0.12</kDotP><mDotQ>-0.12</mDotQ><nDotR>-0.12</nDotR>
+        <xU>-25.15</xU><yV>-7.364</yV><zW>-17.955</zW>
+        <kP>-10.888</kP><mQ>-20.761</mQ><nR>-3.744</nR>
+        <xUabsU>-17.77</xUabsU><yVabsV>-125.9</yVabsV><zWabsW>-72.36</zWabsW>
+        <kPabsP>-0.1246</kPabsP><mQabsQ>-0.1246</mQabsQ><nRabsR>-0.1857</nRabsR>
+      </plugin>
+
+      <plugin name="ignition::gazebo::systems::Thruster" filename="libignition-gazebo-thruster-system.so">
+        <joint_name>thruster1_joint</joint_name>
+        <thrust_coefficient>0.02</thrust_coefficient><fluid_density>1000</fluid_density>
+        <propeller_diameter>0.1</propeller_diameter><velocity_control>false</velocity_control>
+      </plugin>
+      <plugin name="ignition::gazebo::systems::Thruster" filename="libignition-gazebo-thruster-system.so">
+        <joint_name>thruster2_joint</joint_name>
+        <thrust_coefficient>0.02</thrust_coefficient><fluid_density>1000</fluid_density>
+        <propeller_diameter>0.1</propeller_diameter><velocity_control>false</velocity_control>
+      </plugin>
+      <plugin name="ignition::gazebo::systems::Thruster" filename="libignition-gazebo-thruster-system.so">
+        <joint_name>thruster3_joint</joint_name>
+        <thrust_coefficient>0.02</thrust_coefficient><fluid_density>1000</fluid_density>
+        <propeller_diameter>0.1</propeller_diameter><velocity_control>false</velocity_control>
+      </plugin>
+      <plugin name="ignition::gazebo::systems::Thruster" filename="libignition-gazebo-thruster-system.so">
+        <joint_name>thruster4_joint</joint_name>
+        <thrust_coefficient>0.02</thrust_coefficient><fluid_density>1000</fluid_density>
+        <propeller_diameter>0.1</propeller_diameter><velocity_control>false</velocity_control>
+      </plugin>
+      <plugin name="ignition::gazebo::systems::Thruster" filename="libignition-gazebo-thruster-system.so">
+        <joint_name>thruster5_joint</joint_name>
+        <thrust_coefficient>0.02</thrust_coefficient><fluid_density>1000</fluid_density>
+        <propeller_diameter>0.1</propeller_diameter><velocity_control>false</velocity_control>
+      </plugin>
+      <plugin name="ignition::gazebo::systems::Thruster" filename="libignition-gazebo-thruster-system.so">
+        <joint_name>thruster6_joint</joint_name>
+        <thrust_coefficient>0.02</thrust_coefficient><fluid_density>1000</fluid_density>
+        <propeller_diameter>0.1</propeller_diameter><velocity_control>false</velocity_control>
+      </plugin>
+      <plugin name="ignition::gazebo::systems::Thruster" filename="libignition-gazebo-thruster-system.so">
+        <joint_name>thruster7_joint</joint_name>
+        <thrust_coefficient>0.02</thrust_coefficient><fluid_density>1000</fluid_density>
+        <propeller_diameter>0.1</propeller_diameter><velocity_control>false</velocity_control>
+      </plugin>
+      <plugin name="ignition::gazebo::systems::Thruster" filename="libignition-gazebo-thruster-system.so">
+        <joint_name>thruster8_joint</joint_name>
+        <thrust_coefficient>0.02</thrust_coefficient><fluid_density>1000</fluid_density>
+        <propeller_diameter>0.1</propeller_diameter><velocity_control>false</velocity_control>
+      </plugin>
+
+      <plugin name="ignition::gazebo::systems::OdometryPublisher" filename="libignition-gazebo-odometry-publisher-system.so">
+        <odom_frame>world</odom_frame>
+        <robot_base_frame>base_link</robot_base_frame>
+        <odom_publish_frequency>20</odom_publish_frequency>
+      </plugin>
+    </model>
+
+  </world>
+</sdf>

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "makara_interfaces/msg/ThrusterSpeeds",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 148,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "reverse",
+          "type": {
+            "type_id": 148,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "makara_interfaces/msg/ThrusterSpeeds",
+      "hash_string": "RIHS01_359813b12d4158dbf6bdb8e28cf2662881ce29bca58675b5b069afb4795a4691"
+    }
+  ]
+}

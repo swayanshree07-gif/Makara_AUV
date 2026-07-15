@@ -1,0 +1,19 @@
+[1.472s] Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/makara_bringup build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/install.log --single-version-externally-managed install_data
+[1.735s] running egg_info
+[1.746s] writing ../../build/makara_bringup/makara_bringup.egg-info/PKG-INFO
+[1.746s] writing dependency_links to ../../build/makara_bringup/makara_bringup.egg-info/dependency_links.txt
+[1.747s] writing requirements to ../../build/makara_bringup/makara_bringup.egg-info/requires.txt
+[1.747s] writing top-level names to ../../build/makara_bringup/makara_bringup.egg-info/top_level.txt
+[1.773s] reading manifest file '../../build/makara_bringup/makara_bringup.egg-info/SOURCES.txt'
+[1.773s] writing manifest file '../../build/makara_bringup/makara_bringup.egg-info/SOURCES.txt'
+[1.773s] running build
+[1.773s] running build_py
+[1.773s] running install
+[1.777s] running install_lib
+[1.791s] running install_data
+[1.792s] running install_egg_info
+[1.806s] removing '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/lib/python3.12/site-packages/makara_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[1.806s] Copying ../../build/makara_bringup/makara_bringup.egg-info to /home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/lib/python3.12/site-packages/makara_bringup-0.0.0-py3.12.egg-info
+[1.806s] running install_scripts
+[1.896s] writing list of installed files to '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/install.log'
+[1.919s] Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/makara_bringup build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/install.log --single-version-externally-managed install_data

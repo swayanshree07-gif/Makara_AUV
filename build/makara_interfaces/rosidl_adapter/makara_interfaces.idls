@@ -1,0 +1,12 @@
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/BatteryStatus.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/Combined.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/Depth.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/InsVel.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/MoveCmd.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/MoveCmds.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/PID.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/Position.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/Setpoint.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/ThrusterSpeeds.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/ThrusterForces.idl
+/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces/rosidl_adapter/makara_interfaces:msg/VectorNavData.idl

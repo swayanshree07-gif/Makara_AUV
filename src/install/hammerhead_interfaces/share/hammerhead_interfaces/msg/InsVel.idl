@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hammerhead_interfaces/msg/InsVel.msg
+// generated code does not contain a copyright notice
+
+
+module hammerhead_interfaces {
+  module msg {
+    struct InsVel {
+      sequence<float> vel;
+    };
+  };
+};

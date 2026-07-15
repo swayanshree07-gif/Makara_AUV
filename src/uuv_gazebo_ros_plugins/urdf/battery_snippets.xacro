@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- ============================= -->
+  <!-- BASIC BATTERY (HARMONIC) -->
+  <!-- ============================= -->
+
+  <xacro:macro name="basic_linear_battery_macro"
+    params="namespace parent_link voltage">
+
+    <!-- Battery link -->
+    <link name="${namespace}/battery_link">
+      <inertial>
+        <mass value="0.001"/>
+        <origin xyz="0 0 0"/>
+        <inertia ixx="1e-5" iyy="1e-5" izz="1e-5"
+                 ixy="0" ixz="0" iyz="0"/>
+      </inertial>
+    </link>
+
+    <!-- Fixed joint -->
+    <joint name="${namespace}/battery_joint" type="fixed">
+      <origin xyz="0 0 0"/>
+      <parent link="${parent_link}"/>
+      <child link="${namespace}/battery_link"/>
+    </joint>
+
+    <!-- Native Gazebo Harmonic battery -->
+    <gazebo reference="${namespace}/battery_link">
+      <battery name="${namespace}_battery">
+        <voltage>${voltage}</voltage>
+      </battery>
+    </gazebo>
+
+  </xacro:macro>
+
+
+  <!-- ============================= -->
+  <!-- BATTERY CONSUMERS (REMOVED) -->
+  <!-- ============================= -->
+
+  <!--
+    NOTE:
+
+    The following plugins are NOT supported in Gazebo Harmonic:
+
+    - liblinear_battery_ros_plugin.so
+    - libcustom_battery_consumer_ros_plugin.so
+
+    You MUST implement power consumption externally via:
+
+    1) ROS2 node
+    2) Custom gz::sim::System plugin
+  -->
+
+</robot>

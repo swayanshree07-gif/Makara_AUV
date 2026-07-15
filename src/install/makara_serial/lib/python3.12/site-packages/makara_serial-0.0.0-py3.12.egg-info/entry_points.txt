@@ -1,0 +1,2 @@
+[console_scripts]
+makara_serial_node = makara_serial.makara_serial_node:main

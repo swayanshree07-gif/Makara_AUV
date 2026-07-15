@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from makara_interfaces/msg/MoveCmds.msg
+// generated code does not contain a copyright notice
+
+#include "makara_interfaces/msg/MoveCmd.idl"
+
+module makara_interfaces {
+  module msg {
+    struct MoveCmds {
+      int32 len;
+
+      sequence<makara_interfaces::msg::MoveCmd> list;
+    };
+  };
+};

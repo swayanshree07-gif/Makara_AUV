@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d8bea24a21e045ffd0b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "makara_interfaces__py",
+					"jsonFile" : "directory-makara_interfaces__py-bce35d7647198be02165.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces/makara_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "makara_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_makara_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_makara_interfaces_egg-7d06904c707ce384e62a.json",
+					"name" : "ament_cmake_python_build_makara_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_makara_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_makara_interfaces-fa814467fc731f5ebec6.json",
+					"name" : "ament_cmake_python_copy_makara_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces-7f79b7af2f78bd4c3b4e.json",
+					"name" : "makara_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__cpp-f54d0f05cd52ba0bc71c.json",
+					"name" : "makara_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "makara_interfaces__py::@40818c3dec6f29a1685e",
+					"jsonFile" : "target-makara_interfaces__py-4fca1b0c03fc12158b8c.json",
+					"name" : "makara_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__rosidl_generator_c-7bbf898045c07bafbe16.json",
+					"name" : "makara_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__rosidl_generator_py-8b451f1a36ef461e44e0.json",
+					"name" : "makara_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__rosidl_generator_type_description-303708d9588b0345dd69.json",
+					"name" : "makara_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__rosidl_typesupport_c-9b7b502d6d192e319738.json",
+					"name" : "makara_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__rosidl_typesupport_cpp-81c92b158cd1b2eb9c00.json",
+					"name" : "makara_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__rosidl_typesupport_fastrtps_c-8ba0bd75ad9462c8527a.json",
+					"name" : "makara_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__rosidl_typesupport_fastrtps_cpp-6ca29e33d1a95a6ca11d.json",
+					"name" : "makara_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__rosidl_typesupport_introspection_c-c8e89e66ba1d8706a089.json",
+					"name" : "makara_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces__rosidl_typesupport_introspection_cpp-0a4ac3e0ae94c096d0a8.json",
+					"name" : "makara_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces_s__rosidl_typesupport_c-9f6b40b4b0d51d494ff2.json",
+					"name" : "makara_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces_s__rosidl_typesupport_fastrtps_c-c62a1b3b616f1999e85c.json",
+					"name" : "makara_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces_s__rosidl_typesupport_introspection_c-9d4820e36b47b30cdb91.json",
+					"name" : "makara_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "makara_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-makara_interfaces_uninstall-c7ed7dfcd78c8763957b.json",
+					"name" : "makara_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-af61a05d3f1f969ff94c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/swayanshree/projects/Makara-AUV-ROS2/src/build/makara_interfaces",
+		"source" : "/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

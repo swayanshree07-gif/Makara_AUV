@@ -1,0 +1,31 @@
+// generated from rosidl_generator_cpp/resource/idl__type_support.hpp.em
+// with input from makara_interfaces:msg/MoveCmd.idl
+// generated code does not contain a copyright notice
+
+#ifndef MAKARA_INTERFACES__MSG__DETAIL__MOVE_CMD__TYPE_SUPPORT_HPP_
+#define MAKARA_INTERFACES__MSG__DETAIL__MOVE_CMD__TYPE_SUPPORT_HPP_
+
+#include "rosidl_typesupport_interface/macros.h"
+
+#include "makara_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"
+
+#include "rosidl_typesupport_cpp/message_type_support.hpp"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+// Forward declare the get type support functions for this type.
+ROSIDL_GENERATOR_CPP_PUBLIC_makara_interfaces
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+  rosidl_typesupport_cpp,
+  makara_interfaces,
+  msg,
+  MoveCmd
+)();
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // MAKARA_INTERFACES__MSG__DETAIL__MOVE_CMD__TYPE_SUPPORT_HPP_

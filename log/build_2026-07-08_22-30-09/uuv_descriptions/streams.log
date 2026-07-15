@@ -1,0 +1,32 @@
+[1.315s] Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_descriptions': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_descriptions build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/install.log --single-version-externally-managed install_data
+[1.573s] running egg_info
+[1.573s] creating ../../build/uuv_descriptions/uuv_descriptions.egg-info
+[1.587s] writing ../../build/uuv_descriptions/uuv_descriptions.egg-info/PKG-INFO
+[1.587s] writing dependency_links to ../../build/uuv_descriptions/uuv_descriptions.egg-info/dependency_links.txt
+[1.587s] writing requirements to ../../build/uuv_descriptions/uuv_descriptions.egg-info/requires.txt
+[1.587s] writing top-level names to ../../build/uuv_descriptions/uuv_descriptions.egg-info/top_level.txt
+[1.587s] writing manifest file '../../build/uuv_descriptions/uuv_descriptions.egg-info/SOURCES.txt'
+[1.615s] reading manifest file '../../build/uuv_descriptions/uuv_descriptions.egg-info/SOURCES.txt'
+[1.615s] writing manifest file '../../build/uuv_descriptions/uuv_descriptions.egg-info/SOURCES.txt'
+[1.615s] running build
+[1.615s] running build_py
+[1.616s] creating /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/build
+[1.616s] creating /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/build/lib
+[1.616s] creating /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/build/lib/uuv_descriptions
+[1.616s] copying uuv_descriptions/__init__.py -> /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/build/lib/uuv_descriptions
+[1.616s] running install
+[1.621s] running install_lib
+[1.635s] creating /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/python3.12/site-packages/uuv_descriptions
+[1.635s] copying /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/build/lib/uuv_descriptions/__init__.py -> /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/python3.12/site-packages/uuv_descriptions
+[1.635s] byte-compiling /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/python3.12/site-packages/uuv_descriptions/__init__.py to __init__.cpython-312.pyc
+[1.636s] running install_data
+[1.636s] creating /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/ament_index
+[1.636s] creating /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/ament_index/resource_index
+[1.636s] creating /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/ament_index/resource_index/packages
+[1.636s] copying resource/uuv_descriptions -> /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/ament_index/resource_index/packages
+[1.636s] copying package.xml -> /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions
+[1.636s] running install_egg_info
+[1.651s] Copying ../../build/uuv_descriptions/uuv_descriptions.egg-info to /home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/python3.12/site-packages/uuv_descriptions-0.0.0-py3.12.egg-info
+[1.651s] running install_scripts
+[1.747s] writing list of installed files to '/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/install.log'
+[1.772s] Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_descriptions' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_descriptions build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/install.log --single-version-externally-managed install_data

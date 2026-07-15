@@ -1,0 +1,991 @@
+[0.068s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.068s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f44ada92c00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f44ada40950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f44ada40950>>, mixin_verb=('build',))
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.092s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/swayanshree/projects/Makara-AUV-ROS2'
+[0.092s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.110s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extensions ['colcon_pkg']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extension 'colcon_pkg'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extensions ['colcon_meta']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extension 'colcon_meta'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extensions ['ros']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extension 'ros'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extensions ['cmake', 'python']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extension 'cmake'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extension 'python'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extensions ['python_setup_py']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROBOTICS) by extension 'python_setup_py'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/StateSpace) by extensions ['ignore', 'ignore_ament_install']
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/StateSpace) by extension 'ignore'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/StateSpace) by extension 'ignore_ament_install'
+[0.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/StateSpace) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/StateSpace) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/StateSpace) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/StateSpace) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/StateSpace) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/StateSpace) by extension 'ros'
+[0.113s] DEBUG:colcon.colcon_core.package_identification:Package 'src/StateSpace' with type 'ros.ament_cmake' and name 'StateSpace'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/ardupilot_attitude_control) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/ardupilot_attitude_control) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/ardupilot_attitude_control) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/ardupilot_attitude_control) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/ardupilot_attitude_control) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/ardupilot_attitude_control) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/ardupilot_attitude_control) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/ardupilot_attitude_control) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/ardupilot_attitude_control) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ardupilot_attitude_control' with type 'ros.ament_cmake' and name 'ardupilot_attitude_control'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_description) by extension 'ignore'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_description) by extension 'ignore_ament_install'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_description) by extensions ['colcon_pkg']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_description) by extension 'colcon_pkg'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_description) by extensions ['colcon_meta']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_description) by extension 'colcon_meta'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_description) by extensions ['ros']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/auv_description) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auv_description' with type 'ros.ament_cmake' and name 'auv_description'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov2_description) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov2_description) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov2_description) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov2_description) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov2_description) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov2_description) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov2_description) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/bluerov2_description) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bluerov2_description' with type 'ros.ament_cmake' and name 'bluerov2_description'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_sync) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_sync) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_sync) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_sync) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_sync) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_sync) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_sync) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_sync) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_sync) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data_sync' with type 'ros.ament_python' and name 'data_sync'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_interfaces) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_interfaces) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_interfaces) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_interfaces) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_interfaces) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_interfaces) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_interfaces) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_interfaces) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hammerhead_interfaces' with type 'ros.ament_cmake' and name 'hammerhead_interfaces'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_serial) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_serial) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_serial) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_serial) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_serial) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_serial) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_serial) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/hammerhead_serial) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hammerhead_serial' with type 'ros.ament_python' and name 'hammerhead_serial'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_bringup) by extension 'ignore'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_bringup) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_bringup) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_bringup) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_bringup) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_bringup) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_bringup) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_bringup) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makara_bringup' with type 'ros.ament_python' and name 'makara_bringup'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_control) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_control) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_control) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_control) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_control) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_control) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_control) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_control) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_control) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makara_control' with type 'ros.ament_cmake' and name 'makara_control'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_interfaces) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_interfaces) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_interfaces) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_interfaces) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_interfaces) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_interfaces) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_interfaces) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_interfaces) by extension 'ros'
+[0.119s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makara_interfaces' with type 'ros.ament_cmake' and name 'makara_interfaces'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_serial) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_serial) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_serial) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_serial) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_serial) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_serial) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_serial) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_serial) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_serial) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makara_serial' with type 'ros.ament_python' and name 'makara_serial'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_vision) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_vision) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_vision) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_vision) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_vision) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_vision) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_vision) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/makara_vision) by extension 'ros'
+[0.120s] DEBUG:colcon.colcon_core.package_identification:Package 'src/makara_vision' with type 'ros.ament_python' and name 'makara_vision'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extension 'ignore_ament_install'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extensions ['colcon_pkg']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extension 'colcon_pkg'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extensions ['colcon_meta']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extension 'colcon_meta'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extensions ['ros']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extension 'python'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extensions ['python_setup_py']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/state_estimation) by extension 'python_setup_py'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_descriptions) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_descriptions) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_descriptions) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_descriptions) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_descriptions) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_descriptions) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_descriptions) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_descriptions) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uuv_descriptions' with type 'ros.ament_python' and name 'uuv_descriptions'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_gazebo_ros_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_gazebo_ros_plugins) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_gazebo_ros_plugins) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_gazebo_ros_plugins) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_gazebo_ros_plugins) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_gazebo_ros_plugins) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_gazebo_ros_plugins) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_gazebo_ros_plugins) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_gazebo_ros_plugins) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uuv_gazebo_ros_plugins' with type 'ros.ament_python' and name 'uuv_gazebo_ros_plugins'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_sensor_ros_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_sensor_ros_plugins) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_sensor_ros_plugins) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_sensor_ros_plugins) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_sensor_ros_plugins) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_sensor_ros_plugins) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_sensor_ros_plugins) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_sensor_ros_plugins) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/uuv_sensor_ros_plugins) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uuv_sensor_ros_plugins' with type 'ros.ament_python' and name 'uuv_sensor_ros_plugins'
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.137s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/jazzy
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'StateSpace' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'StateSpace' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'StateSpace' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'StateSpace' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'StateSpace' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'StateSpace' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'StateSpace' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'StateSpace' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'StateSpace' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'StateSpace' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/StateSpace', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/StateSpace', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'auv_description' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'auv_description' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'auv_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'auv_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'auv_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'auv_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'auv_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'auv_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'auv_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'auv_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/auv_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/auv_description', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'bluerov2_description' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'bluerov2_description' build argument 'cmake_target' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'bluerov2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'bluerov2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'bluerov2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'bluerov2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'bluerov2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'bluerov2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'bluerov2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.163s] DEBUG:colcon.colcon_core.verb:Building package 'bluerov2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/bluerov2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/bluerov2_description', 'symlink_install': False, 'test_result_base': None}
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'data_sync' build argument 'cmake_args' from command line to 'None'
+[0.163s] Level 5:colcon.colcon_core.verb:set package 'data_sync' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'data_sync' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'data_sync' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'data_sync' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'data_sync' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'data_sync' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'data_sync' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'data_sync' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'data_sync' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/data_sync', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'hammerhead_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/hammerhead_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_bringup' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_bringup' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'makara_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.164s] DEBUG:colcon.colcon_core.verb:Building package 'makara_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_vision' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_vision' build argument 'cmake_target' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'makara_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'makara_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_vision', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_descriptions' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_descriptions' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_descriptions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_descriptions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_descriptions' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_descriptions' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_descriptions' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_descriptions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_descriptions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'uuv_descriptions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_descriptions', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_gazebo_ros_plugins' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_gazebo_ros_plugins' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_gazebo_ros_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_gazebo_ros_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_gazebo_ros_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_gazebo_ros_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_gazebo_ros_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_gazebo_ros_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_gazebo_ros_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'uuv_gazebo_ros_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_gazebo_ros_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_sensor_ros_plugins' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_sensor_ros_plugins' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_sensor_ros_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_sensor_ros_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_sensor_ros_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_sensor_ros_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_sensor_ros_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_sensor_ros_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'uuv_sensor_ros_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'uuv_sensor_ros_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_sensor_ros_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_sensor_ros_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ardupilot_attitude_control' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ardupilot_attitude_control' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ardupilot_attitude_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ardupilot_attitude_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ardupilot_attitude_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ardupilot_attitude_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ardupilot_attitude_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ardupilot_attitude_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'ardupilot_attitude_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'ardupilot_attitude_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/ardupilot_attitude_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/ardupilot_attitude_control', 'symlink_install': False, 'test_result_base': None}
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_serial' build argument 'cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_serial' build argument 'cmake_target' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'hammerhead_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.166s] DEBUG:colcon.colcon_core.verb:Building package 'hammerhead_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/hammerhead_serial', 'symlink_install': False, 'test_result_base': None}
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_control' build argument 'cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_control' build argument 'cmake_target' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.166s] DEBUG:colcon.colcon_core.verb:Building package 'makara_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_control', 'symlink_install': False, 'test_result_base': None}
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_serial' build argument 'cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_serial' build argument 'cmake_target' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_serial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_serial' build argument 'cmake_clean_first' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_serial' build argument 'cmake_force_configure' from command line to 'False'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_serial' build argument 'ament_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_serial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.166s] Level 5:colcon.colcon_core.verb:set package 'makara_serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.166s] DEBUG:colcon.colcon_core.verb:Building package 'makara_serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial', 'merge_install': False, 'path': '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_serial', 'symlink_install': False, 'test_result_base': None}
+[0.166s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/hammerhead_interfaces' with build type 'ament_cmake'
+[0.167s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/hammerhead_interfaces'
+[0.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_interfaces' with build type 'ament_cmake'
+[0.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_interfaces'
+[0.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.173s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/StateSpace' with build type 'ament_cmake'
+[0.173s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/StateSpace'
+[0.173s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.173s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.175s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/auv_description' with build type 'ament_cmake'
+[0.175s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/auv_description'
+[0.175s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.175s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/bluerov2_description' with build type 'ament_cmake'
+[0.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/bluerov2_description'
+[0.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.179s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/data_sync' with build type 'ament_python'
+[0.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_sync', 'ament_prefix_path')
+[0.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/hook/ament_prefix_path.ps1'
+[0.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/hook/ament_prefix_path.dsv'
+[0.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/hook/ament_prefix_path.sh'
+[0.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.182s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_bringup' with build type 'ament_python'
+[0.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_bringup', 'ament_prefix_path')
+[0.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/hook/ament_prefix_path.ps1'
+[0.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/hook/ament_prefix_path.dsv'
+[0.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/hook/ament_prefix_path.sh'
+[0.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.184s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_vision' with build type 'ament_python'
+[0.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_vision', 'ament_prefix_path')
+[0.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/hook/ament_prefix_path.ps1'
+[0.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/hook/ament_prefix_path.dsv'
+[0.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/hook/ament_prefix_path.sh'
+[0.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.187s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_descriptions' with build type 'ament_python'
+[0.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_descriptions', 'ament_prefix_path')
+[0.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/hook/ament_prefix_path.ps1'
+[0.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/hook/ament_prefix_path.dsv'
+[0.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/hook/ament_prefix_path.sh'
+[0.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.190s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_gazebo_ros_plugins' with build type 'ament_python'
+[0.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_gazebo_ros_plugins', 'ament_prefix_path')
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/hook/ament_prefix_path.ps1'
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/hook/ament_prefix_path.dsv'
+[0.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/hook/ament_prefix_path.sh'
+[0.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.192s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_sensor_ros_plugins' with build type 'ament_python'
+[0.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_sensor_ros_plugins', 'ament_prefix_path')
+[0.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/hook/ament_prefix_path.ps1'
+[0.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/hook/ament_prefix_path.dsv'
+[0.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/hook/ament_prefix_path.sh'
+[0.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_interfaces -- -j16 -l16
+[0.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces -- -j16 -l16
+[0.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/StateSpace': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/StateSpace -- -j16 -l16
+[0.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/auv_description -- -j16 -l16
+[0.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/bluerov2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/bluerov2_description -- -j16 -l16
+[0.379s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/data_sync'
+[0.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.528s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_bringup'
+[0.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.647s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_vision'
+[0.647s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.647s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.764s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_descriptions'
+[0.764s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.764s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.891s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_gazebo_ros_plugins'
+[0.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.010s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_sensor_ros_plugins'
+[1.011s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.011s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_interfaces -- -j16 -l16
+[1.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_interfaces
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces -- -j16 -l16
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces
+[1.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/auv_description -- -j16 -l16
+[1.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/auv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/auv_description
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/StateSpace' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/StateSpace -- -j16 -l16
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/StateSpace': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/StateSpace
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/bluerov2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/bluerov2_description -- -j16 -l16
+[1.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/bluerov2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/bluerov2_description
+[1.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auv_description)
+[1.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/auv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/auv_description
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description' for CMake module files
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description' for CMake config files
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_description', 'cmake_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/hook/cmake_prefix_path.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/hook/cmake_prefix_path.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/hook/cmake_prefix_path.sh'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/lib'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/bin'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/lib/pkgconfig/auv_description.pc'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/lib/python3.12/site-packages'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/bin'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.sh'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.bash'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.zsh'
+[1.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/colcon-core/packages/auv_description)
+[1.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auv_description)
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description' for CMake module files
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description' for CMake config files
+[1.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('auv_description', 'cmake_prefix_path')
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/hook/cmake_prefix_path.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/hook/cmake_prefix_path.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/hook/cmake_prefix_path.sh'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/lib'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/bin'
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/lib/pkgconfig/auv_description.pc'
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/lib/python3.12/site-packages'
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/bin'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.sh'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.bash'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/auv_description/package.zsh'
+[1.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/auv_description/share/colcon-core/packages/auv_description)
+[1.095s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(StateSpace)
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace' for CMake module files
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/StateSpace' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/StateSpace
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace' for CMake config files
+[1.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('StateSpace', 'cmake_prefix_path')
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/hook/cmake_prefix_path.ps1'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/hook/cmake_prefix_path.dsv'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/hook/cmake_prefix_path.sh'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/lib'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/bin'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/lib/pkgconfig/StateSpace.pc'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/lib/python3.12/site-packages'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/bin'
+[1.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.sh'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.bash'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.zsh'
+[1.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/colcon-core/packages/StateSpace)
+[1.101s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(StateSpace)
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace' for CMake module files
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace' for CMake config files
+[1.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('StateSpace', 'cmake_prefix_path')
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/hook/cmake_prefix_path.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/hook/cmake_prefix_path.dsv'
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/hook/cmake_prefix_path.sh'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/lib'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/bin'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/lib/pkgconfig/StateSpace.pc'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/lib/python3.12/site-packages'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/bin'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.sh'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.bash'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/StateSpace/package.zsh'
+[1.106s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/StateSpace/share/colcon-core/packages/StateSpace)
+[1.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bluerov2_description)
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description' for CMake module files
+[1.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/bluerov2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/bluerov2_description
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description' for CMake config files
+[1.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluerov2_description', 'cmake_prefix_path')
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/hook/cmake_prefix_path.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/hook/cmake_prefix_path.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/hook/cmake_prefix_path.sh'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/bin'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/lib/pkgconfig/bluerov2_description.pc'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/lib/python3.12/site-packages'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/bin'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.dsv'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.sh'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.bash'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.zsh'
+[1.112s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/colcon-core/packages/bluerov2_description)
+[1.113s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bluerov2_description)
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description' for CMake module files
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description' for CMake config files
+[1.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('bluerov2_description', 'cmake_prefix_path')
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/hook/cmake_prefix_path.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/hook/cmake_prefix_path.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/hook/cmake_prefix_path.sh'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/bin'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/lib/pkgconfig/bluerov2_description.pc'
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/lib/python3.12/site-packages'
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/bin'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.ps1'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.dsv'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.sh'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.bash'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/bluerov2_description/package.zsh'
+[1.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/bluerov2_description/share/colcon-core/packages/bluerov2_description)
+[1.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hammerhead_interfaces)
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces' for CMake module files
+[1.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_interfaces
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces' for CMake config files
+[1.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('hammerhead_interfaces', 'cmake_prefix_path')
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/cmake_prefix_path.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/cmake_prefix_path.dsv'
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/cmake_prefix_path.sh'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib'
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('hammerhead_interfaces', 'ld_library_path_lib')
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/ld_library_path_lib.ps1'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/ld_library_path_lib.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/ld_library_path_lib.sh'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/bin'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/pkgconfig/hammerhead_interfaces.pc'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/python3.12/site-packages'
+[1.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('hammerhead_interfaces', 'pythonpath')
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/pythonpath.ps1'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/pythonpath.dsv'
+[1.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/pythonpath.sh'
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/bin'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.dsv'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.sh'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.bash'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.zsh'
+[1.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/colcon-core/packages/hammerhead_interfaces)
+[1.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hammerhead_interfaces)
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces' for CMake module files
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces' for CMake config files
+[1.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('hammerhead_interfaces', 'cmake_prefix_path')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/cmake_prefix_path.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/cmake_prefix_path.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/cmake_prefix_path.sh'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib'
+[1.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('hammerhead_interfaces', 'ld_library_path_lib')
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/ld_library_path_lib.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/ld_library_path_lib.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/ld_library_path_lib.sh'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/bin'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/pkgconfig/hammerhead_interfaces.pc'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/python3.12/site-packages'
+[1.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('hammerhead_interfaces', 'pythonpath')
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/pythonpath.ps1'
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/pythonpath.dsv'
+[1.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/hook/pythonpath.sh'
+[1.137s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/bin'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.ps1'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.sh'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.bash'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/hammerhead_interfaces/package.zsh'
+[1.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/share/colcon-core/packages/hammerhead_interfaces)
+[1.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(makara_interfaces)
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces' for CMake module files
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces' for CMake config files
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_interfaces
+[1.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_interfaces', 'cmake_prefix_path')
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/cmake_prefix_path.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/cmake_prefix_path.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/cmake_prefix_path.sh'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib'
+[1.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_interfaces', 'ld_library_path_lib')
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/ld_library_path_lib.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/ld_library_path_lib.dsv'
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/ld_library_path_lib.sh'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/bin'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/pkgconfig/makara_interfaces.pc'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/python3.12/site-packages'
+[1.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_interfaces', 'pythonpath')
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/pythonpath.ps1'
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/pythonpath.dsv'
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/pythonpath.sh'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/bin'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.dsv'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.sh'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.bash'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.zsh'
+[1.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/colcon-core/packages/makara_interfaces)
+[1.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(makara_interfaces)
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces' for CMake module files
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces' for CMake config files
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_interfaces', 'cmake_prefix_path')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/cmake_prefix_path.ps1'
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/cmake_prefix_path.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/cmake_prefix_path.sh'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib'
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_interfaces', 'ld_library_path_lib')
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/ld_library_path_lib.ps1'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/ld_library_path_lib.dsv'
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/ld_library_path_lib.sh'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/bin'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/pkgconfig/makara_interfaces.pc'
+[1.156s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/python3.12/site-packages'
+[1.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_interfaces', 'pythonpath')
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/pythonpath.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/pythonpath.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/hook/pythonpath.sh'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/bin'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.ps1'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.sh'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.bash'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/makara_interfaces/package.zsh'
+[1.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/share/colcon-core/packages/makara_interfaces)
+[1.161s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/ardupilot_attitude_control' with build type 'ament_cmake'
+[1.162s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/ardupilot_attitude_control'
+[1.162s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.162s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.166s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/hammerhead_serial' with build type 'ament_python'
+[1.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('hammerhead_serial', 'ament_prefix_path')
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/hook/ament_prefix_path.ps1'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/hook/ament_prefix_path.dsv'
+[1.167s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/hook/ament_prefix_path.sh'
+[1.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_control' with build type 'ament_cmake'
+[1.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_control'
+[1.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.171s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.175s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_serial' with build type 'ament_python'
+[1.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_serial', 'ament_prefix_path')
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/hook/ament_prefix_path.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/hook/ament_prefix_path.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/hook/ament_prefix_path.sh'
+[1.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/ardupilot_attitude_control': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/ardupilot_attitude_control -- -j16 -l16
+[1.435s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/hammerhead_serial'
+[1.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_control': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_control -- -j16 -l16
+[1.620s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_serial'
+[1.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.620s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/ardupilot_attitude_control' returned '0': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/ardupilot_attitude_control -- -j16 -l16
+[1.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/ardupilot_attitude_control': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/ardupilot_attitude_control
+[1.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_sensor_ros_plugins': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_sensor_ros_plugins/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_sensor_ros_plugins build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_sensor_ros_plugins/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_sensor_ros_plugins/install.log --single-version-externally-managed install_data
+[1.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/makara_vision build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_vision/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_vision/install.log --single-version-externally-managed install_data
+[1.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/data_sync': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_sync build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/install.log --single-version-externally-managed install_data
+[1.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_descriptions': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_descriptions build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/install.log --single-version-externally-managed install_data
+[1.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/makara_bringup build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/install.log --single-version-externally-managed install_data
+[1.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_gazebo_ros_plugins': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_gazebo_ros_plugins build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/install.log --single-version-externally-managed install_data
+[1.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_control' returned '0': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_control -- -j16 -l16
+[1.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_control': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_control
+[1.650s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ardupilot_attitude_control)
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control' for CMake module files
+[1.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/ardupilot_attitude_control' returned '0': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/ardupilot_attitude_control
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control' for CMake config files
+[1.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('ardupilot_attitude_control', 'cmake_prefix_path')
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/hook/cmake_prefix_path.ps1'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/hook/cmake_prefix_path.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/hook/cmake_prefix_path.sh'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/lib'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/bin'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/lib/pkgconfig/ardupilot_attitude_control.pc'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/lib/python3.12/site-packages'
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/bin'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.ps1'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.dsv'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.sh'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.bash'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.zsh'
+[1.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/colcon-core/packages/ardupilot_attitude_control)
+[1.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ardupilot_attitude_control)
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control' for CMake module files
+[1.658s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control' for CMake config files
+[1.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('ardupilot_attitude_control', 'cmake_prefix_path')
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/hook/cmake_prefix_path.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/hook/cmake_prefix_path.dsv'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/hook/cmake_prefix_path.sh'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/lib'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/bin'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/lib/pkgconfig/ardupilot_attitude_control.pc'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/lib/python3.12/site-packages'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/bin'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.ps1'
+[1.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.dsv'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.sh'
+[1.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.bash'
+[1.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/ardupilot_attitude_control/package.zsh'
+[1.663s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/ardupilot_attitude_control/share/colcon-core/packages/ardupilot_attitude_control)
+[1.664s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(makara_control)
+[1.664s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control' for CMake module files
+[1.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_control' returned '0': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_control
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control' for CMake config files
+[1.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_control', 'cmake_prefix_path')
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/hook/cmake_prefix_path.ps1'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/hook/cmake_prefix_path.dsv'
+[1.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/hook/cmake_prefix_path.sh'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/lib'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/bin'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/lib/pkgconfig/makara_control.pc'
+[1.667s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/lib/python3.12/site-packages'
+[1.668s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/bin'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.ps1'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.dsv'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.sh'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.bash'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.zsh'
+[1.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/colcon-core/packages/makara_control)
+[1.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(makara_control)
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control' for CMake module files
+[1.671s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control' for CMake config files
+[1.672s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_control', 'cmake_prefix_path')
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/hook/cmake_prefix_path.ps1'
+[1.672s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/hook/cmake_prefix_path.dsv'
+[1.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/hook/cmake_prefix_path.sh'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/lib'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/bin'
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/lib/pkgconfig/makara_control.pc'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/lib/python3.12/site-packages'
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/bin'
+[1.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.ps1'
+[1.675s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.dsv'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.sh'
+[1.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.bash'
+[1.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/makara_control/package.zsh'
+[1.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_control/share/colcon-core/packages/makara_control)
+[2.003s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins' for CMake module files
+[2.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_gazebo_ros_plugins' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_gazebo_ros_plugins build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_gazebo_ros_plugins/install.log --single-version-externally-managed install_data
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins' for CMake config files
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/lib'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/bin'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/lib/pkgconfig/uuv_gazebo_ros_plugins.pc'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/lib/python3.12/site-packages'
+[2.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_gazebo_ros_plugins', 'pythonpath')
+[2.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/hook/pythonpath.ps1'
+[2.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/hook/pythonpath.dsv'
+[2.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/hook/pythonpath.sh'
+[2.007s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/bin'
+[2.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uuv_gazebo_ros_plugins)
+[2.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/package.ps1'
+[2.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/package.dsv'
+[2.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/package.sh'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/package.bash'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/uuv_gazebo_ros_plugins/package.zsh'
+[2.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_gazebo_ros_plugins/share/colcon-core/packages/uuv_gazebo_ros_plugins)
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync' for CMake module files
+[2.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/data_sync' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/data_sync build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/data_sync/install.log --single-version-externally-managed install_data
+[2.073s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync' for CMake config files
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/bin'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/pkgconfig/data_sync.pc'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/lib/python3.12/site-packages'
+[2.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_sync', 'pythonpath')
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/hook/pythonpath.ps1'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/hook/pythonpath.dsv'
+[2.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/hook/pythonpath.sh'
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/bin'
+[2.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_sync)
+[2.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/package.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/package.dsv'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/package.sh'
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/package.bash'
+[2.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/data_sync/package.zsh'
+[2.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/data_sync/share/colcon-core/packages/data_sync)
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup' for CMake module files
+[2.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/makara_bringup build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_bringup/install.log --single-version-externally-managed install_data
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup' for CMake config files
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/lib'
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/bin'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/lib/pkgconfig/makara_bringup.pc'
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/lib/python3.12/site-packages'
+[2.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_bringup', 'pythonpath')
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/hook/pythonpath.ps1'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/hook/pythonpath.dsv'
+[2.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/hook/pythonpath.sh'
+[2.088s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/bin'
+[2.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(makara_bringup)
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/package.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/package.dsv'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/package.sh'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/package.bash'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/makara_bringup/package.zsh'
+[2.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_bringup/share/colcon-core/packages/makara_bringup)
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision' for CMake module files
+[2.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/makara_vision build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_vision/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_vision/install.log --single-version-externally-managed install_data
+[2.091s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision' for CMake config files
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/lib'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/bin'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/lib/pkgconfig/makara_vision.pc'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/lib/python3.12/site-packages'
+[2.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_vision', 'pythonpath')
+[2.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/hook/pythonpath.ps1'
+[2.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/hook/pythonpath.dsv'
+[2.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/hook/pythonpath.sh'
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/bin'
+[2.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(makara_vision)
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/package.ps1'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/package.dsv'
+[2.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/package.sh'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/package.bash'
+[2.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/makara_vision/package.zsh'
+[2.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_vision/share/colcon-core/packages/makara_vision)
+[2.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/hammerhead_serial': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/lib/python3.12/site-packages:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hammerhead_serial build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_serial/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_serial/install.log --single-version-externally-managed install_data
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions' for CMake module files
+[2.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_descriptions' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_descriptions build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_descriptions/install.log --single-version-externally-managed install_data
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions' for CMake config files
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib'
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/bin'
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/pkgconfig/uuv_descriptions.pc'
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/lib/python3.12/site-packages'
+[2.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_descriptions', 'pythonpath')
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/hook/pythonpath.ps1'
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/hook/pythonpath.dsv'
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/hook/pythonpath.sh'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/bin'
+[2.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uuv_descriptions)
+[2.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/package.ps1'
+[2.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/package.dsv'
+[2.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/package.sh'
+[2.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/package.bash'
+[2.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/uuv_descriptions/package.zsh'
+[2.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_descriptions/share/colcon-core/packages/uuv_descriptions)
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins' for CMake module files
+[2.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/uuv_sensor_ros_plugins' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_sensor_ros_plugins/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uuv_sensor_ros_plugins build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_sensor_ros_plugins/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/uuv_sensor_ros_plugins/install.log --single-version-externally-managed install_data
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins' for CMake config files
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/lib'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/bin'
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/lib/pkgconfig/uuv_sensor_ros_plugins.pc'
+[2.181s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/lib/python3.12/site-packages'
+[2.181s] Level 1:colcon.colcon_core.shell:create_environment_hook('uuv_sensor_ros_plugins', 'pythonpath')
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/hook/pythonpath.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/hook/pythonpath.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/hook/pythonpath.sh'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/bin'
+[2.182s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(uuv_sensor_ros_plugins)
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/package.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/package.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/package.sh'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/package.bash'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/uuv_sensor_ros_plugins/package.zsh'
+[2.184s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/uuv_sensor_ros_plugins/share/colcon-core/packages/uuv_sensor_ros_plugins)
+[2.233s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_serial': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/lib/python3.12/site-packages:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/makara_serial build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_serial/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_serial/install.log --single-version-externally-managed install_data
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial' for CMake module files
+[2.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/hammerhead_serial' returned '0': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/lib/python3.12/site-packages:/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hammerhead_serial build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_serial/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/hammerhead_serial/install.log --single-version-externally-managed install_data
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial' for CMake config files
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/lib'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/bin'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/lib/pkgconfig/hammerhead_serial.pc'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/lib/python3.12/site-packages'
+[2.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('hammerhead_serial', 'pythonpath')
+[2.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/hook/pythonpath.ps1'
+[2.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/hook/pythonpath.dsv'
+[2.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/hook/pythonpath.sh'
+[2.440s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/bin'
+[2.440s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hammerhead_serial)
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/package.ps1'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/package.dsv'
+[2.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/package.sh'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/package.bash'
+[2.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/hammerhead_serial/package.zsh'
+[2.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/hammerhead_serial/share/colcon-core/packages/hammerhead_serial)
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial' for CMake module files
+[2.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/swayanshree/projects/Makara-AUV-ROS2/src/makara_serial' returned '0': AMENT_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/swayanshree/projects/Makara-AUV-ROS2/build/makara_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/lib/python3.12/site-packages:/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/makara_serial build --build-base /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_serial/build install --record /home/swayanshree/projects/Makara-AUV-ROS2/build/makara_serial/install.log --single-version-externally-managed install_data
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial' for CMake config files
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/lib'
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/bin'
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/lib/pkgconfig/makara_serial.pc'
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/lib/python3.12/site-packages'
+[2.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('makara_serial', 'pythonpath')
+[2.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/hook/pythonpath.ps1'
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/hook/pythonpath.dsv'
+[2.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/hook/pythonpath.sh'
+[2.575s] Level 1:colcon.colcon_core.environment:checking '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/bin'
+[2.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(makara_serial)
+[2.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/package.ps1'
+[2.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/package.dsv'
+[2.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/package.sh'
+[2.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/package.bash'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/makara_serial/package.zsh'
+[2.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/swayanshree/projects/Makara-AUV-ROS2/install/makara_serial/share/colcon-core/packages/makara_serial)
+[2.576s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.576s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.576s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.576s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.580s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.580s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.580s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.589s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.589s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swayanshree/projects/Makara-AUV-ROS2/install/local_setup.ps1'
+[2.589s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swayanshree/projects/Makara-AUV-ROS2/install/_local_setup_util_ps1.py'
+[2.590s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swayanshree/projects/Makara-AUV-ROS2/install/setup.ps1'
+[2.590s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swayanshree/projects/Makara-AUV-ROS2/install/local_setup.sh'
+[2.591s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/swayanshree/projects/Makara-AUV-ROS2/install/_local_setup_util_sh.py'
+[2.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swayanshree/projects/Makara-AUV-ROS2/install/setup.sh'
+[2.591s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swayanshree/projects/Makara-AUV-ROS2/install/local_setup.bash'
+[2.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swayanshree/projects/Makara-AUV-ROS2/install/setup.bash'
+[2.592s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/swayanshree/projects/Makara-AUV-ROS2/install/local_setup.zsh'
+[2.592s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/swayanshree/projects/Makara-AUV-ROS2/install/setup.zsh'
