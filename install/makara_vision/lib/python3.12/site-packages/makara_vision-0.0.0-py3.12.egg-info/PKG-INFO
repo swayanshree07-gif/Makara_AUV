@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: makara-vision
-Version: 0.0.0
-Summary: Makara AUV Vision Package with YOLO and NPU support
-Maintainer: root
-Maintainer-email: alyaminbinharis@gmail.com
-License: Apache-2.0

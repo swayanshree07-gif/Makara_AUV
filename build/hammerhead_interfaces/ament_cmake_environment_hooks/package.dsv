@@ -1,4 +1,0 @@
-source;share/hammerhead_interfaces/local_setup.bash
-source;share/hammerhead_interfaces/local_setup.dsv
-source;share/hammerhead_interfaces/local_setup.sh
-source;share/hammerhead_interfaces/local_setup.zsh
